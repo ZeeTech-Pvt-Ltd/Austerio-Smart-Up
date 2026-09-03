@@ -1,5 +1,5 @@
 // Risk Disclosure — layout follows the gemwealth-holm reference; all copy is
-// rewritten for Zephgain in its own words. Brand colors/fonts unchanged.
+// rewritten for Austerio Smart Up in its own words. Brand colors/fonts unchanged.
 // Reuses the shared legal-page styles (.terms-*) from index.css.
 const sections = [
   {
@@ -20,7 +20,7 @@ const sections = [
     n: '03',
     t: 'No Investment Advice',
     p: [
-      'Zephgain provides technology and information tools. Nothing on the platform — including AI-generated analysis, signals, or other content — constitutes personalised investment advice, a recommendation, or a solicitation to trade. All content is provided for informational purposes only.',
+      'Austerio Smart Up provides technology and information tools. Nothing on the platform — including AI-generated analysis, signals, or other content — constitutes personalised investment advice, a recommendation, or a solicitation to trade. All content is provided for informational purposes only.',
     ],
   },
   {
@@ -84,7 +84,7 @@ export default function RiskDisclosure() {
           <h1 className="h1">
             Risk <mark>Disclosure</mark>
           </h1>
-          <p className="lead">The risks you should understand before using the Zephgain platform.</p>
+          <p className="lead">The risks you should understand before using the Austerio Smart Up platform.</p>
           <span className="terms-updated">Last updated: 31 August 2026</span>
         </div>
       </section>

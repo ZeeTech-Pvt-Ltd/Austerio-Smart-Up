@@ -6,7 +6,7 @@ export default function Capabilities() {
       <div className="container">
         <div className="section-head reveal">
           <span className="eyebrow">At a glance</span>
-          <h2 className="h2">Core <mark>Capabilities</mark> of the Zephgain Trading Platform</h2>
+          <h2 className="h2">Core <mark>Capabilities</mark> of the Austerio Smart Up Trading Platform</h2>
         </div>
 
         <div className="caps-grid">

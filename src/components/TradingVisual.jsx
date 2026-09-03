@@ -1,4 +1,4 @@
-// Original trading-dashboard visual, recreated from scratch in Zephgain's
+// Original trading-dashboard visual, recreated from scratch in Austerio Smart Up's
 // brand colours. Only the general trading/fintech graphic style (area charts,
 // candlesticks, market stat chips) is used as inspiration — no third-party
 // artwork is copied. All colours come from the site's CSS variables.
@@ -26,7 +26,7 @@ export default function TradingVisual() {
   return (
     <div className="tv-card">
       <div className="tv-head">
-        <span className="tv-brand">Zephgain AI</span>
+        <span className="tv-brand">Austerio Smart Up</span>
         <span className="tv-live">
           <span className="dot"></span> Live
         </span>
@@ -49,11 +49,11 @@ export default function TradingVisual() {
         <svg viewBox="0 0 560 212" role="img" aria-label="Upward trending automated trading chart">
           <defs>
             <linearGradient id="tvGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0" stopColor="#2679FF" stopOpacity="0.32" />
-              <stop offset="1" stopColor="#2679FF" stopOpacity="0" />
+              <stop offset="0" stopColor="#8B5CF6" stopOpacity="0.32" />
+              <stop offset="1" stopColor="#8B5CF6" stopOpacity="0" />
             </linearGradient>
           </defs>
-          <g fill="none" stroke="rgba(23,91,221,.14)" strokeDasharray="2 6">
+          <g fill="none" stroke="rgba(109,40,217,.14)" strokeDasharray="2 6">
             <path d="M0 40 H560" />
             <path d="M0 90 H560" />
             <path d="M0 140 H560" />

@@ -1,5 +1,5 @@
 // =========================================================
-// Per-route SEO configuration for Zephgain.
+// Per-route SEO configuration for Austerio Smart Up.
 // Single source of truth for <title>, meta description, meta
 // keywords, canonical URLs, robots rules, Open Graph, Twitter
 // cards, and JSON-LD structured data — consumed by <Seo/>.
@@ -7,7 +7,7 @@
 // =========================================================
 import { faq } from './content.js'
 
-const SITE = 'https://zephgain-au.com'
+const SITE = 'https://austeriosmart-up.com'
 export const OG_IMAGE = `${SITE}/og-image.png`
 
 // ---------- JSON-LD builders (real site content only) ----------
@@ -16,12 +16,12 @@ const organization = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   '@id': `${SITE}/#organization`,
-  name: 'Zephgain',
+  name: 'Austerio Smart Up',
   url: SITE,
   logo: `${SITE}/favicon.svg`,
   description:
-    'Zephgain is an AI-powered automated trading platform for users in Australia — automated strategies, live market signals, and dependable security in one place.',
-  email: 'support@zephgain-au.com',
+    'Austerio Smart Up is an AI-powered automated trading platform for users in Australia — automated strategies, live market signals, and dependable security in one place.',
+  email: 'support@austeriosmart-up.com',
   inLanguage: 'en-AU',
   areaServed: 'Australia',
   address: {
@@ -33,7 +33,7 @@ const organization = {
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'customer support',
-    email: 'support@zephgain-au.com',
+    email: 'support@austeriosmart-up.com',
     availableLanguage: 'en',
     hoursAvailable: 'Mo-Su 00:00-24:00',
   },
@@ -47,7 +47,7 @@ function serviceSchema() {
     '@context': 'https://schema.org',
     '@type': 'Service',
     '@id': `${SITE}/#service`,
-    name: 'Zephgain Automated Trading Platform',
+    name: 'Austerio Smart Up Automated Trading Platform',
     serviceType: 'Automated trading platform',
     description:
       'AI-powered automated trading platform for users in Australia — automated strategies, live market signals, and dependable security in one place.',
@@ -67,7 +67,7 @@ const website = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   '@id': `${SITE}/#website`,
-  name: 'Zephgain',
+  name: 'Austerio Smart Up',
   url: SITE,
   publisher: { '@id': `${SITE}/#organization` },
   inLanguage: 'en-AU',
@@ -113,146 +113,146 @@ function faqPageSchema() {
 }
 
 const homeDescription =
-  'Zephgain — AI-powered automated trading platform for Australia. 24/7 automated strategies, live signals, bank-grade security. Start with just AU$250.'
+  'Austerio Smart Up — AI-powered automated trading platform for Australia. 24/7 automated strategies, live signals, bank-grade security. Start with just AU$250.'
 
 export const seo = {
   home: {
-    title: 'Zephgain — AI-Powered Automated Trading Platform in Australia',
+    title: 'Austerio Smart Up — AI-Powered Automated Trading Platform in Australia',
     description: homeDescription,
     keywords:
-      'automated trading platform australia, AI trading platform, automated crypto trading, Zephgain, AI trading Australia',
+      'Austerio Smart Up, automated trading platform australia, AI trading platform, automated crypto trading, AI trading Australia',
     canonical: `${SITE}/`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'Zephgain — AI-powered automated trading platform for Australia',
-    schema: [organization, website, webPage('Zephgain — AI-Powered Automated Trading Platform in Australia', `${SITE}/`, homeDescription), faqPageSchema(), serviceSchema()],
+    ogImageAlt: 'Austerio Smart Up — AI-powered automated trading platform for Australia',
+    schema: [organization, website, webPage('Austerio Smart Up — AI-Powered Automated Trading Platform in Australia', `${SITE}/`, homeDescription), faqPageSchema(), serviceSchema()],
   },
 
   about: {
-    title: 'About Zephgain — Automated Trading Without the Complexity',
+    title: 'About Austerio Smart Up — Automated Trading Without the Complexity',
     description:
-      'Learn about Zephgain, the AI trading platform trusted by 4M+ users — automated analysis, bank-grade security, and 24/7 support for Australian traders.',
-    keywords: 'about Zephgain, Zephgain trading platform, automated trading platform australia, AI trading company',
+      'Learn about Austerio Smart Up, the AI trading platform trusted by 4M+ users — automated analysis, bank-grade security, and 24/7 support for Australian traders.',
+    keywords: 'about Austerio Smart Up, Austerio Smart Up trading platform, automated trading platform australia, AI trading company',
     canonical: `${SITE}/about`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'About Zephgain — automated trading without the complexity',
+    ogImageAlt: 'About Austerio Smart Up — automated trading without the complexity',
     schema: [
-      webPage('About Zephgain', `${SITE}/about`, 'About the Zephgain AI-driven automated trading platform — automated market analysis, bank-grade security, and 24/7 support.'),
+      webPage('About Austerio Smart Up', `${SITE}/about`, 'About the Austerio Smart Up AI-driven automated trading platform — automated market analysis, bank-grade security, and 24/7 support.'),
       breadcrumb('About Us', '/about'),
     ],
   },
 
   contact: {
-    title: 'Contact Zephgain — 24/7 Support for Australian Traders',
+    title: 'Contact Austerio Smart Up — 24/7 Support for Australian Traders',
     description:
-      'Have a question about Zephgain or automated trading? Contact our 24/7 support team by email or the registration form — we usually reply within a few hours.',
-    keywords: 'contact Zephgain, Zephgain support, automated trading help, Zephgain Australia support',
+      'Have a question about Austerio Smart Up or automated trading? Contact our 24/7 support team by email or the registration form — we usually reply within a few hours.',
+    keywords: 'contact Austerio Smart Up, Austerio Smart Up support, automated trading help, automated trading Australia support',
     canonical: `${SITE}/contact`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'Contact Zephgain support — 24/7 assistance for Australian traders',
+    ogImageAlt: 'Contact Austerio Smart Up support — 24/7 assistance for Australian traders',
     schema: [
-      webPage('Contact Zephgain', `${SITE}/contact`, 'Contact the Zephgain support team — email and registration form, available around the clock.'),
+      webPage('Contact Austerio Smart Up', `${SITE}/contact`, 'Contact the Austerio Smart Up support team — email and registration form, available around the clock.'),
       breadcrumb('Contact Us', '/contact'),
     ],
   },
 
   'how-it-works': {
-    title: 'How Zephgain Works — Get Started in 3 Easy Steps',
+    title: 'How Austerio Smart Up Works — Get Started in 3 Easy Steps',
     description:
-      'Getting started with Zephgain takes about two minutes. Create your account, deposit from just AU$250, and let the AI trade around the clock — no hidden fees.',
-    keywords: 'how to start automated trading, Zephgain sign up, AI trading steps, automated trading for beginners',
+      'Getting started with Austerio Smart Up takes about two minutes. Create your account, deposit from just AU$250, and let the AI trade around the clock — no hidden fees.',
+    keywords: 'how to start automated trading, Austerio Smart Up sign up, AI trading steps, automated trading for beginners',
     canonical: `${SITE}/how-it-works`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'How Zephgain works — create your account, deposit, and start automated trading',
+    ogImageAlt: 'How Austerio Smart Up works — create your account, deposit, and start automated trading',
     schema: [
-      webPage('How Zephgain Works', `${SITE}/how-it-works`, 'How to get started with Zephgain automated trading in three easy steps — create an account, deposit, and start trading.'),
+      webPage('How Austerio Smart Up Works', `${SITE}/how-it-works`, 'How to get started with Austerio Smart Up automated trading in three easy steps — create an account, deposit, and start trading.'),
       breadcrumb('How It Works', '/how-it-works'),
     ],
   },
 
   'why-invest': {
-    title: 'Why Invest with Zephgain — Security & Simplicity',
+    title: 'Why Invest with Austerio Smart Up — Security & Simplicity',
     description:
-      'Why 4M+ verified users choose Zephgain — 95% cold storage, 2FA, 256-bit SSL, transparent pricing, and automated AI trading for every level.',
-    keywords: 'why invest with Zephgain, secure automated trading, Zephgain security, automated trading benefits',
+      'Why 4M+ verified users choose Austerio Smart Up — 95% cold storage, 2FA, 256-bit SSL, transparent pricing, and automated AI trading for every level.',
+    keywords: 'why invest with Austerio Smart Up, secure automated trading, Austerio Smart Up security, automated trading benefits',
     canonical: `${SITE}/why-invest`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'Why invest with Zephgain — security, simplicity, and transparency',
+    ogImageAlt: 'Why invest with Austerio Smart Up — security, simplicity, and transparency',
     schema: [
-      webPage('Why Invest with Zephgain', `${SITE}/why-invest`, 'Why traders choose Zephgain — security, simplicity, and transparency in automated AI trading.'),
+      webPage('Why Invest with Austerio Smart Up', `${SITE}/why-invest`, 'Why traders choose Austerio Smart Up — security, simplicity, and transparency in automated AI trading.'),
       breadcrumb('Why Invest', '/why-invest'),
     ],
   },
 
   terms: {
-    title: 'Terms of Use — Zephgain Automated Trading Platform',
+    title: 'Terms of Use — Austerio Smart Up Automated Trading Platform',
     description:
-      'Read the Zephgain Terms of Use — the rules that govern use of the Zephgain AI-powered automated trading platform and its services for users in Australia.',
-    keywords: 'Zephgain terms of use, automated trading terms, platform terms',
+      'Read the Austerio Smart Up Terms of Use — the rules that govern use of the Austerio Smart Up AI-powered automated trading platform and its services for users in Australia.',
+    keywords: 'Austerio Smart Up terms of use, automated trading terms, platform terms',
     canonical: `${SITE}/terms`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'Zephgain terms of use',
+    ogImageAlt: 'Austerio Smart Up terms of use',
     schema: [
-      webPage('Terms of Use', `${SITE}/terms`, 'The Zephgain Terms of Use — the rules governing use of the platform.'),
+      webPage('Terms of Use', `${SITE}/terms`, 'The Austerio Smart Up Terms of Use — the rules governing use of the platform.'),
       breadcrumb('Terms of Use', '/terms'),
     ],
   },
 
   privacy: {
-    title: 'Privacy Policy — Zephgain Automated Trading Platform',
+    title: 'Privacy Policy — Austerio Smart Up Automated Trading Platform',
     description:
-      'Read the Zephgain Privacy Policy — how Zephgain collects, uses, and protects your personal information on the automated trading platform.',
-    keywords: 'Zephgain privacy policy, data protection, trading platform privacy',
+      'Read the Austerio Smart Up Privacy Policy — how Austerio Smart Up collects, uses, and protects your personal information on the automated trading platform.',
+    keywords: 'Austerio Smart Up privacy policy, data protection, trading platform privacy',
     canonical: `${SITE}/privacy`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'Zephgain privacy policy',
+    ogImageAlt: 'Austerio Smart Up privacy policy',
     schema: [
-      webPage('Privacy Policy', `${SITE}/privacy`, 'The Zephgain Privacy Policy — how personal information is collected and protected.'),
+      webPage('Privacy Policy', `${SITE}/privacy`, 'The Austerio Smart Up Privacy Policy — how personal information is collected and protected.'),
       breadcrumb('Privacy Policy', '/privacy'),
     ],
   },
 
   disclosure: {
-    title: 'Risk Disclosure — Zephgain Automated Trading Platform',
+    title: 'Risk Disclosure — Austerio Smart Up Automated Trading Platform',
     description:
-      'Read the Zephgain Risk Disclosure — important information about the risks of trading FX, CFDs, and cryptocurrencies on the automated trading platform.',
-    keywords: 'Zephgain risk disclosure, trading risk warning, CFD crypto risk',
+      'Read the Austerio Smart Up Risk Disclosure — important information about the risks of trading FX, CFDs, and cryptocurrencies on the automated trading platform.',
+    keywords: 'Austerio Smart Up risk disclosure, trading risk warning, CFD crypto risk',
     canonical: `${SITE}/disclosure`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'Zephgain risk disclosure',
+    ogImageAlt: 'Austerio Smart Up risk disclosure',
     schema: [
-      webPage('Risk Disclosure', `${SITE}/disclosure`, 'The Zephgain Risk Disclosure — information about the risks of trading FX, CFDs, and cryptocurrencies.'),
+      webPage('Risk Disclosure', `${SITE}/disclosure`, 'The Austerio Smart Up Risk Disclosure — information about the risks of trading FX, CFDs, and cryptocurrencies.'),
       breadcrumb('Risk Disclosure', '/disclosure'),
     ],
   },
 
   'thank-you': {
-    title: 'Thank You — Zephgain Registration',
+    title: 'Thank You — Austerio Smart Up Registration',
     description:
-      'Your Zephgain registration has been received. Our team will review your details and contact you shortly to activate your account.',
+      'Your Austerio Smart Up registration has been received. Our team will review your details and contact you shortly to activate your account.',
     keywords: '',
     canonical: `${SITE}/thank-you`,
     robots: 'noindex, nofollow',
     type: 'website',
-    ogImageAlt: 'Thank you — Zephgain registration',
+    ogImageAlt: 'Thank you — Austerio Smart Up registration',
     schema: [],
   },
 
   404: {
-    title: 'Page Not Found — Zephgain',
-    description: "The page you're looking for doesn't exist or has been moved. Return to the Zephgain homepage or contact support.",
+    title: 'Page Not Found — Austerio Smart Up',
+    description: "The page you're looking for doesn't exist or has been moved. Return to the Austerio Smart Up homepage or contact support.",
     keywords: '',
     canonical: null, // 404 page carries no canonical — it is noindexed
     robots: 'noindex, nofollow',
     type: 'website',
-    ogImageAlt: 'Page not found — Zephgain',
+    ogImageAlt: 'Page not found — Austerio Smart Up',
     schema: [],
   },
 }

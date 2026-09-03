@@ -1,12 +1,12 @@
 // Privacy Notice — layout follows the gemwealth-holm privacy reference; all copy
-// is rewritten for Zephgain in its own words. Brand colors/fonts unchanged.
+// is rewritten for Austerio Smart Up in its own words. Brand colors/fonts unchanged.
 // Reuses the shared legal-page styles (.terms-*) from index.css.
 const sections = [
   {
     n: '01',
     t: 'Introduction',
     p: [
-      "Zephgain (\"we\", \"us\", \"our\") respects your privacy and treats personal information with transparency and integrity. This Privacy Notice explains what information we collect, how we use it, and the choices you have.",
+      "Austerio Smart Up (\"we\", \"us\", \"our\") respects your privacy and treats personal information with transparency and integrity. This Privacy Notice explains what information we collect, how we use it, and the choices you have.",
     ],
   },
   {
@@ -121,7 +121,7 @@ export default function Privacy() {
           <h1 className="h1">
             Privacy <mark>Policy</mark>
           </h1>
-          <p className="lead">How Zephgain collects, uses, and protects your personal information.</p>
+          <p className="lead">How Austerio Smart Up collects, uses, and protects your personal information.</p>
           <span className="terms-updated">Last updated: 31 August 2026</span>
         </div>
       </section>

@@ -8,7 +8,7 @@ export default function Precision() {
         <div className="section-head reveal">
           <span className="eyebrow">Standout technology</span>
           <h2 className="h2">Precision, Speed, and <mark>Security</mark> — All in One System</h2>
-          <p className="lead">The details that set Zephgain apart.</p>
+          <p className="lead">A closer look at the details that set Austerio Smart Up apart.</p>
         </div>
 
         <div className="feat-grid">

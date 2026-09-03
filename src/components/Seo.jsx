@@ -1,10 +1,10 @@
 import { useEffect } from 'react'
 import { seo, OG_IMAGE } from '../data/seo.js'
 
-const SITE = 'https://zephgain-au.com'
+const SITE = 'https://austeriosmart-up.com'
 
 /**
- * Seo — per-route head management for the Zephgain SPA.
+ * Seo — per-route head management for the Austerio Smart Up SPA.
  *
  * Syncs <title>, meta description/keywords/robots, canonical link,
  * Open Graph + Twitter tags, and JSON-LD structured data into
@@ -62,7 +62,7 @@ export default function Seo({ route }) {
 
     // ---- Open Graph ----
     const og = {
-      'og:site_name': 'Zephgain',
+      'og:site_name': 'Austerio Smart Up',
       'og:title': conf.title,
       'og:description': conf.description,
       'og:url': conf.canonical || `${SITE}/`,

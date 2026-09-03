@@ -60,7 +60,7 @@ export default function Footer() {
               <a key={l.label} href={l.href}>{l.label}</a>
             ))}
           </nav>
-          <span>Official domain: zephgain-au.com</span>
+          <span>Official domain: austeriosmart-up.com</span>
         </div>
 
         <span id="terms"></span>
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-legal" style={{ borderTop: 'none', paddingTop: 0, justifyContent: 'center' }}>
-          Copyright 2026 © Zephgain, All Right Reserved
+          Copyright 2026 © Austerio Smart Up, All Right Reserved
         </div>
       </div>
     </footer>

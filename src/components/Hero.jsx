@@ -43,7 +43,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Registration form — kept identical in flow to zephgain.com */}
+        {/* Registration form */}
         <div className="form-wrap reveal">
           <div className="form-ring"></div>
 
@@ -55,7 +55,7 @@ export default function Hero() {
           </div>
 
           <div className="chip chip-2">
-            <span className="ico" style={{ background: 'linear-gradient(114deg,#56863E,#8FC473)' }}>
+            <span className="ico" style={{ background: 'linear-gradient(114deg,#16A34A,#4ADE80)' }}>
               <Check />
             </span>
             <div><b>AU Verified</b><span>Protected registration</span></div>

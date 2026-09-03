@@ -195,7 +195,7 @@ export default function App() {
       <CtaBanner
         eyebrow="Driven by Innovation"
         title="Built for Every Trader"
-        text="Zephgain is built by a team of innovators, analysts, and engineers who are committed to advancing the world of automated trading. Join thousands of verified traders across Australia today."
+        text="Austerio Smart Up is built by a team of innovators, analysts, and engineers committed to advancing the world of automated trading. Join thousands of verified traders across Australia today."
         cta="Register Now"
       />
 

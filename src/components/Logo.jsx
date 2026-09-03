@@ -1,9 +1,9 @@
 export default function Logo({ onDark = false }) {
   return (
-    <a className="logo" href="/" aria-label="Zephgain home">
-      <span className="logo-mark">Z</span>
+    <a className="logo" href="/" aria-label="Austerio Smart Up home">
+      <span className="logo-mark">A</span>
       <span className={`logo-text ${onDark ? 'on-dark' : ''}`}>
-        Zeph<span>gain</span>
+        Austerio <span>Smart Up</span>
       </span>
     </a>
   )

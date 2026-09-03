@@ -15,24 +15,24 @@ const pillars = [
   {
     icon: 'bot',
     title: 'AI-Powered Analysis',
-    text: "Zephgain's AI watches the markets continuously and turns what it spots into clear, actionable signals — so a promising move rarely goes unnoticed.",
+    text: "Austerio Smart Up's AI monitors the markets around the clock and turns what it sees into clear, ready-to-use signals — so a promising move rarely slips past.",
   },
   {
     icon: 'shield',
     title: 'Bank-Grade Security',
-    text: 'Funds and personal data are shielded by strong encryption and layered account protection — from the moment you sign up to your very first withdrawal.',
+    text: 'Funds and personal data are shielded by strong encryption and layered account protection — from the moment you register through to your very first withdrawal.',
   },
   {
     icon: 'user',
     title: 'Support, Your Way',
-    text: 'A real support team is available around the clock to guide you — from your first login through your hundredth trade.',
+    text: 'A real support team is available around the clock to guide you — from your first login to your hundredth trade.',
   },
 ]
 
 const mission = [
   {
     title: 'Accessible',
-    text: "Expertise shouldn't be a barrier to trading. Every screen on Zephgain is built to feel clear and welcoming, so a first-time trader can start with confidence — whatever their background.",
+    text: "Trading expertise should never be a barrier to entry. Every screen on Austerio Smart Up is designed to feel clear and welcoming, so a first-time trader can begin with confidence — whatever their background.",
   },
   {
     title: 'Transparent',
@@ -40,7 +40,7 @@ const mission = [
   },
   {
     title: 'Innovative',
-    text: 'The platform is refined continuously with the latest AI and algorithmic trading technology, keeping Zephgain genuinely current rather than standing still.',
+    text: 'The platform is refined continuously with the latest AI and algorithmic trading technology, keeping Austerio Smart Up genuinely current rather than standing still.',
   },
   {
     title: 'Responsible',
@@ -52,7 +52,7 @@ const story = [
   {
     step: '01',
     title: 'The Beginning',
-    text: 'Zephgain began with six specialists in fintech and algorithmic trading who shared a single goal — to make automated trading as simple and dependable as everyday online banking.',
+    text: 'Austerio Smart Up began with six specialists in fintech and algorithmic trading who shared one goal — to make automated trading as simple and dependable as everyday online banking.',
   },
   {
     step: '02',
@@ -62,27 +62,27 @@ const story = [
   {
     step: '03',
     title: 'Growing the Community',
-    text: 'Within its first year, Zephgain passed 500,000 users. More currencies were added, alongside round-the-clock customer support in several languages.',
+    text: 'Within its first year, Austerio Smart Up passed 500,000 users. More currencies were added, alongside round-the-clock customer support in several languages.',
   },
   {
     step: '04',
     title: 'Reaching New Markets',
-    text: 'As demand grew, Zephgain broadened into many new markets — adding local payment options and switching on two-factor authentication for every account along the way.',
+    text: 'As demand grew, Austerio Smart Up expanded into many new markets — adding local payment options and switching on two-factor authentication for every account along the way.',
   },
   {
     step: '05',
     title: 'Today',
-    text: 'Now serving 4M+ registered users across 65+ currencies, Zephgain keeps growing every day — with the original mission unchanged: make automated trading accessible to everyone.',
+    text: 'Now serving 4M+ registered users across 65+ currencies, Austerio Smart Up keeps growing every day — with the original mission unchanged: make automated trading accessible to everyone.',
   },
 ]
 
 const badges = ['SSL Certified', 'GDPR Compliant', '256-bit Encryption', 'Available in 98+ Countries', 'Regular Security Audits']
 
 const security = [
-  { icon: 'shield', title: 'Your Funds Stay Safe', text: 'Funds remain in your own account at all times. Zephgain is authorised only to place trades on your behalf — nothing more.' },
+  { icon: 'shield', title: 'Your Funds Stay Safe', text: 'Funds remain in your own account at all times. Austerio Smart Up is authorised only to place trades on your behalf — nothing more.' },
   { icon: 'lock', title: 'Bank-Grade Encryption', text: 'All data is protected by 256-bit SSL encryption, and API keys are encrypted both at rest and in transit.' },
   { icon: 'zap', title: 'Two-Factor Authentication', text: 'Accounts can be secured with two-factor authentication, biometric login, and confirmation steps before any withdrawal.' },
-  { icon: 'user', title: 'Data Privacy Standards', text: 'Strict data-privacy and account-security practices are applied in every market Zephgain serves.' },
+  { icon: 'user', title: 'Data Privacy Standards', text: 'Strict data-privacy and account-security practices are applied in every market Austerio Smart Up serves.' },
 ]
 
 export default function About() {
@@ -92,12 +92,12 @@ export default function About() {
       <section className="about-hero">
         <div className="container about-hero-inner">
           <div className="about-hero-copy reveal">
-            <span className="eyebrow">About Zephgain</span>
+            <span className="eyebrow">About Austerio Smart Up</span>
             <h1 className="h1">
               Automated trading, <mark>without the complexity</mark>
             </h1>
             <p className="lead">
-              Zephgain studies the market around the clock and turns what it finds into clear, actionable
+              Austerio Smart Up studies the market around the clock and turns what it finds into clear, actionable
               opportunities. Our goal is simple — give every trader across Australia the tools to invest with
               confidence and full transparency.
             </p>
@@ -163,7 +163,7 @@ export default function About() {
         <div className="container">
           <div className="section-head reveal">
             <span className="eyebrow">Our Mission</span>
-            <h2 className="h2">What we believe and why we built Zephgain</h2>
+            <h2 className="h2">What we believe and why we built Austerio Smart Up</h2>
           </div>
 
           <div className="about-mission">
@@ -195,7 +195,7 @@ export default function About() {
                   <span className="about-story-fallback" aria-hidden="true">{s.step}</span>
                   <img
                     src={`/about/story-${i + 1}.webp`}
-                    alt={`${s.title} — Zephgain`}
+                    alt={`${s.title} — Austerio Smart Up`}
                     loading="lazy"
                     onError={(e) => { e.currentTarget.style.display = 'none' }}
                   />
@@ -240,7 +240,7 @@ export default function About() {
       <CtaBanner
         eyebrow="Ready to begin?"
         title="Put automated trading to work"
-        text="Create your Zephgain account in about two minutes and let AI-driven strategies trade around the clock — with support available 24/7."
+        text="Create your Austerio Smart Up account in about two minutes and let AI-driven strategies trade around the clock — with support available 24/7."
         cta="Register Now"
       />
     </>

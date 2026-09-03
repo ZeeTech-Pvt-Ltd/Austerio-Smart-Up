@@ -3,13 +3,13 @@ import { priorities } from '../data/content.js'
 
 // `asPage` is set when this section renders as the full /why-invest page:
 // the heading becomes the page's single H1 and targets the page's search
-// intent ("Why Invest with Zephgain") instead of the in-page section title.
+// intent ("Why Invest with Austerio Smart Up") instead of the in-page section title.
 export default function Priorities({ asPage = false }) {
   const Heading = asPage ? 'h1' : 'h2'
   // asPage (/why-invest) adds an Australia geo-signal; the in-page home
   // section keeps the original shorter lead.
   const leadText = asPage
-    ? 'Why traders across Australia choose Zephgain — security, ease of use, and openness at every step.'
+    ? 'Why traders across Australia choose Austerio Smart Up — security, ease of use, and openness at every step.'
     : priorities.lead
   return (
     <section className="section prio" id="priorities">
@@ -17,7 +17,7 @@ export default function Priorities({ asPage = false }) {
         <div className="section-head reveal">
           <span className="eyebrow">{priorities.eyebrow}</span>
           {asPage ? (
-            <Heading className="h2">Why Invest with <mark>Zephgain</mark></Heading>
+            <Heading className="h2">Why Invest with <mark>Austerio Smart Up</mark></Heading>
           ) : (
             <Heading className="h2">{priorities.title}<mark>{priorities.titleMark}</mark></Heading>
           )}

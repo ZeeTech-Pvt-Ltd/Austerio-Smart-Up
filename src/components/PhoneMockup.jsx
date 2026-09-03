@@ -1,5 +1,5 @@
 // Original mobile-mockup visual — a phone showing a trading chart on screen.
-// Built from scratch in Zephgain's brand colours; only the generic
+// Built from scratch in Austerio Smart Up's brand colours; only the generic
 // device-mockup / trading-graphic style is used as inspiration, no
 // third-party artwork is copied. Each variant shows a different chart stage
 // of the company story (the chart paths are hand-drawn originals).
@@ -72,11 +72,11 @@ export default function PhoneMockup({ variant = 1 }) {
           <svg className="pm-chart" viewBox="0 0 320 150" role="img" aria-label={`${v.label} trading chart`}>
             <defs>
               <linearGradient id={gid} x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stopColor="#2679FF" stopOpacity="0.3" />
-                <stop offset="1" stopColor="#2679FF" stopOpacity="0" />
+                <stop offset="0" stopColor="#8B5CF6" stopOpacity="0.3" />
+                <stop offset="1" stopColor="#8B5CF6" stopOpacity="0" />
               </linearGradient>
             </defs>
-            <g stroke="rgba(23,91,221,.12)" strokeDasharray="2 5">
+            <g stroke="rgba(109,40,217,.12)" strokeDasharray="2 5">
               <path d="M0 38 H320" />
               <path d="M0 76 H320" />
               <path d="M0 114 H320" />

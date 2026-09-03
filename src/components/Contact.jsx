@@ -6,10 +6,10 @@ import { submitLead } from '../lib/submitLead.js'
 import { navigateTo } from '../lib/navigate.js'
 import { countries } from '../data/countries.js'
 
-// Layout follows the lyravestgrove contact reference; colors, fonts, and
-// components are Zephgain's own design system. Content is Zephgain-branded.
+// Layout and components follow the site's own design system; copy is
+// Austerio Smart Up-branded.
 const info = [
-  { icon: 'mail', title: 'Email', value: 'support@zephgain-au.com', hint: 'Replies within a few hours' },
+  { icon: 'mail', title: 'Email', value: 'support@austeriosmart-up.com', hint: 'Replies within a few hours' },
   { icon: 'clock', title: 'Support Hours', value: '24/7, 365 days a year', hint: 'Round-the-clock assistance' },
   { icon: 'pin', title: 'Location', value: 'Melbourne, Victoria, Australia', hint: 'Serving traders across Australia' },
   { icon: 'zap', title: 'Response Time', value: 'Most questions answered within a few hours', hint: 'Fast, helpful support' },
@@ -60,8 +60,8 @@ export default function Contact() {
             We&rsquo;d love to <mark>hear from you</mark>
           </h1>
           <p className="lead">
-            Have a question about Zephgain, your account, or automated trading? Our team is available around the
-            clock — reach out and we&rsquo;ll get back to you quickly.
+            Have a question about Austerio Smart Up, your account, or automated trading? Our team is available around
+            the clock — reach out and we&rsquo;ll get back to you quickly.
           </p>
         </div>
       </section>
@@ -138,7 +138,7 @@ export default function Contact() {
       <CtaBanner
         eyebrow="Explore trading opportunities"
         title="Register now and our team will be in touch"
-        text="Open your Zephgain account in minutes and put automated AI trading to work — with support available 24/7."
+        text="Open your Austerio Smart Up account in minutes and put automated AI trading to work — with support available 24/7."
         cta="Register Now"
       />
     </>

@@ -13,13 +13,13 @@ export const nav = [
 
 export const hero = {
   eyebrow: '🇦🇺 Chosen by traders across Australia',
-  title: 'Zephgain',
+  title: 'Austerio Smart Up',
   titleMark: 'Automated Trading Platform',
-  lead: 'Zephgain is the smart trading platform for Australia — AI-powered strategies, live market signals, and dependable security, all in one straightforward place.',
+  lead: 'Austerio Smart Up is an AI-powered trading platform made for Australia — automated strategies, live market signals, and dependable security in one easy-to-use place.',
   checks: [
-    'AI strategies that trade for you, around the clock',
-    'Live market tracking and alerts, day and night',
-    'Secure, clear, and built for every experience level',
+    'AI trading strategies that run for you around the clock',
+    'Live market tracking with instant alerts, day and night',
+    'Secure, transparent, and suited to every experience level',
   ],
   stats: [
     { value: '4M+', label: 'Verified users' },
@@ -40,14 +40,14 @@ export const steps = [
     no: 'STEP 1',
     icon: 'user',
     title: 'Create Your Account',
-    text: 'Getting started only takes a few minutes. Enter your name, email, and phone number, and your account is ready — protected by two-factor authentication from the moment it is created.',
+    text: 'Signing up only takes a few minutes. Enter your first and last name, email, and phone number, and your account is ready — protected by two-factor authentication from the very start.',
     cta: 'Start now',
   },
   {
     no: 'STEP 2',
     icon: 'wallet',
     title: 'Deposit Funds',
-    text: 'Begin with as little as AU$250. We support credit and debit cards, bank transfers, and leading e-wallets, and deposits reach your account within minutes — no waiting around, no hidden charges.',
+    text: 'Begin with as little as AU$250. Pay by credit or debit card, direct bank transfer, or a popular e-wallet, and funds typically reach your account within minutes — no waiting around, no surprise charges.',
     cta: 'Deposit now',
     green: true,
   },
@@ -55,7 +55,7 @@ export const steps = [
     no: 'STEP 3',
     icon: 'chart',
     title: 'Start Trading',
-    text: 'Let the AI trade fully automatically, or take the manual route — the decision is yours. The platform watches the markets 24/7, places trades on your behalf when automated mode is on, and keeps your balance up to date in real time.',
+    text: 'Let the automation trade hands-free, or steer the markets yourself — it is your call. When auto mode is on, Austerio Smart Up watches prices 24/7, places trades on your behalf, and keeps your balance current in real time.',
     cta: 'Get started',
   },
 ]
@@ -71,53 +71,67 @@ export const experience = {
   eyebrow: 'The platform',
   titleA: 'Experience Smarter Trading with ',
   titleMark: 'AI-Driven Precision',
-  lead: 'Clear, secure, and open to traders of every level. Zephgain pairs intelligent automation with live market analysis to deliver a fast and streamlined trading experience across Australia.',
+  lead: 'A clear, secure environment that welcomes traders at every level. Austerio Smart Up pairs intelligent automation with live market insight for a fast, straightforward trading experience across Australia.',
   rows: [
     {
       title: 'Advanced AI Technologies',
-      text: "At the heart of the platform is intelligent automation. Zephgain studies live markets and acts on opportunities across multiple asset classes, so the work happens for you while you stay in control of your account.",
-      label: 'Portfolio value', sub: '▲ 12.4%', balance: '$5,450.50', bars: [34, 48, 40, 62, 55, 74, 66, 88], badge: 'AI Active 24/7', pos: 'b1',
+      text: "Intelligent automation sits at the heart of the platform. Austerio Smart Up keeps an eye on live markets and acts on opportunities across many asset classes — the heavy lifting happens for you while you stay in full control of your account.",
+      image: '/exp-advanced-ai.webp',
+      imageAlt: 'Advanced AI Technologies visual on the Austerio Smart Up platform',
+      imageW: 1080, imageH: 810,
     },
     {
       title: 'AI-Powered Trading Engine',
-      text: "Our adaptive engine responds the moment market conditions shift. Cryptocurrency trading carries risk by nature, but a transparent approach and proactive technology give you access to tools built for speed and clarity.",
-      label: 'AI status', sub: 'Active 24/7', balance: 'Executing…', balanceNote: 'LIVE', bars: [52, 38, 70, 58, 82, 64, 92], badge: 'Real-time signals', pos: 'b2', solid: true,
+      text: 'The adaptive engine responds the moment market conditions shift. Cryptocurrency trading carries risk by nature, yet a transparent approach and responsive technology give you tools built for speed and clarity.',
+      image: '/exp-ai-engine.webp',
+      imageAlt: 'AI-Powered Trading Engine visual on the Austerio Smart Up platform',
+      imageW: 1080, imageH: 810,
     },
     {
       title: 'Simple and Clear Investing',
-      text: 'Whether you are brand new to trading or a seasoned investor, Zephgain keeps things simple. Complex concepts are broken down into clear steps, so diversifying your portfolio stays easy and understandable.',
-      label: '3-click trading', sub: 'Beginner friendly', balance: 'Simple.', balanceNote: 'No jargon', bars: [30, 42, 38, 56, 50, 64, 60, 76], badge: 'For every level', pos: 'b3',
+      text: 'Whether you are trying trading for the first time or you already know the ropes, Austerio Smart Up keeps things refreshingly uncomplicated. Complex market ideas are broken down into plain-language steps, and the whole journey — from sign-up to your first trade — follows a clear, guided path. You never have to guess what a fee, a signal, or a setting actually means, because every move on the platform explains itself as you go.',
+      list: [
+        'Start trading in as few as three clicks',
+        'No confusing jargon — everything in plain language',
+        'A guided dashboard that always shows the next step',
+        'Equally at home for total beginners and seasoned traders',
+      ],
+      image: '/simple-clear-investing.webp',
+      imageAlt: 'Simple, clear and easy-to-follow investing on the Austerio Smart Up platform',
+      imageW: 880, imageH: 926,
     },
     {
       title: 'Convenient and Reliable Management',
-      text: 'Your dashboard puts everything in one place — trades, performance, and signals — so you always know exactly where you stand. That clarity is part of what makes Zephgain a platform you can rely on.',
-      label: 'Balance', sub: 'Withdraw anytime', balance: '$12,840.90', bars: [44, 58, 50, 72, 64, 80, 74, 96], badge: 'Transparent dashboard', pos: 'b1',
+      text: 'Your dashboard keeps trades, performance, and signals in one tidy view, so you always know exactly where you stand. That clarity is a big part of why traders rely on Austerio Smart Up day after day.',
+      image: '/convenient-reliable-management.webp',
+      imageAlt: 'Convenient and reliable account management on the Austerio Smart Up platform',
+      imageW: 1000, imageH: 800,
     },
   ],
 }
 
 export const priorities = {
-  eyebrow: 'Why Zephgain',
+  eyebrow: 'Why Austerio Smart Up',
   title: 'Our ',
   titleMark: 'priorities',
-  lead: 'Security, ease of use, and openness — at every step.',
+  lead: 'Security, simplicity, and total openness — at every single step.',
   cards: [
     {
       big: '95%', cap: 'cold storage',
       title: 'Security', sub: 'Steps we take to help keep your funds safe',
-      items: ['95% of funds held in cold storage', 'Two-factor authentication and 256-bit SSL encryption', 'Strong data-privacy protections'],
+      items: ['95% of holdings kept in cold storage', 'Two-factor authentication plus 256-bit SSL encryption', 'Robust data-privacy protections'],
       tags: ['SSL', '2FA'],
     },
     {
       big: '3', bigNote: 'clicks', cap: 'to start', alt: true,
       title: 'Simplicity', sub: 'Designed for everyone, not just experts',
-      items: ['A 3-click path to your first trade', 'Automated AI trading assistant', 'An interface that suits every user level'],
+      items: ['Reach your first trade in just three clicks', 'An automated AI trading assistant', 'An interface that fits traders of every level'],
       tags: ['AI-Powered'],
     },
     {
       big: '0', cap: 'hidden fees',
       title: 'Transparency', sub: 'No surprises, ever',
-      items: ['Upfront pricing from day one', 'No hidden fees', 'Live reserve audits'],
+      items: ['Clear pricing from day one', 'No hidden charges', 'Live reserve audits'],
       tags: ['Live audits'],
     },
   ],
@@ -126,30 +140,30 @@ export const priorities = {
 export const features = [
   {
     icon: 'bot', title: 'Automated Trading, Your Way',
-    text: 'Let our bots handle the heavy lifting or fine-tune the parameters yourself. You stay in charge while the platform does the work.',
+    text: 'Let the automation take care of the busywork, or fine-tune the settings to suit your style. You stay in charge while the platform does the heavy lifting.',
   },
   {
     icon: 'clock', title: 'Market Intelligence in Real Time', green: true,
-    text: 'Follow global markets without the stress of going it alone. Zephgain delivers sharp execution and live signals around the clock.',
+    text: 'Follow global markets without going it alone. Austerio Smart Up delivers sharp execution and live signals around the clock.',
   },
   {
     icon: 'shield', title: 'Serious Security, Total Peace of Mind',
-    text: 'Industry-standard encryption and multi-factor authentication help keep every Zephgain account in Australia protected.',
+    text: 'Industry-standard encryption and multi-factor authentication help keep every Austerio Smart Up account across Australia protected.',
   },
 ]
 
 export const precision = [
   {
     icon: 'lock', title: 'Smart Algorithms for Smarter Trading',
-    text: 'Advanced AI scans live market data and surfaces emerging trends on your behalf — across Bitcoin, Ethereum, stocks, and forex.',
+    text: 'Advanced AI scans live market data and highlights emerging trends on your behalf — across Bitcoin, Ethereum, stocks, and forex.',
   },
   {
     icon: 'zap', title: 'Fast Execution, Precise Timing', green: true,
-    text: 'The Zephgain engine reads global pricing, liquidity shifts, and volatility, then executes trades automatically at the right moment.',
+    text: 'The Austerio Smart Up engine reads pricing, liquidity shifts, and volatility, then executes trades automatically at exactly the right moment.',
   },
   {
     icon: 'gauge', title: 'Insights You Can Act On',
-    text: 'Automation is only half the story. Real-time analytics and performance tools keep you informed at every turn.',
+    text: 'Automation is only half the story. Real-time analytics and performance tools keep you fully informed at every turn.',
   },
 ]
 
@@ -160,15 +174,15 @@ export const testimonials = {
   lead: 'Real experiences, straight from verified users.',
   items: [
     {
-      quote: "Trading with Zephgain has been a great experience from the start. The AI moves quickly, and the dashboard lets me follow everything in real time.",
+      quote: "Using Austerio Smart Up has been a pleasure from day one. The automation responds quickly, and the dashboard makes it easy to follow everything as it happens.",
       name: 'Liam Whitford', initials: 'LW', verified: 'Verified user',
     },
     {
-      quote: 'I had never traded before joining. The onboarding was simple and every step was explained clearly, so I never felt lost.',
+      quote: 'I had zero trading background before signing up. The setup was painless, each step was explained clearly, and I never felt out of my depth.',
       name: 'Megan Hartley', initials: 'MH', verified: 'Verified trade',
     },
     {
-      quote: "The speed of the platform stood out to me immediately, and withdrawals have been smooth — each step is confirmed clearly before it goes through.",
+      quote: "The speed caught my attention straight away, and taking money out has been hassle-free — every step is confirmed clearly before it processes.",
       name: 'Callum Whitford', initials: 'CW', verified: 'Verified trade',
     },
   ],
@@ -182,39 +196,41 @@ export const portfolio = {
   title: 'Manage Your ',
   titleMark: 'Portfolio with Data-Driven',
   titleEnd: ' Trading',
-  lead: 'Through the official Zephgain platform, traders in Australia get a clean, data-first trading experience — real-time performance tracking and tools that are simple to understand and use.',
+  lead: 'Through the Austerio Smart Up platform, traders in Australia enjoy a clean, data-first experience — live performance tracking plus tools that are refreshingly simple to understand and use.',
   checks: [
     'Live performance analytics',
-    'Straightforward guidance at every step',
+    'Clear guidance at every step',
     'Withdraw your funds whenever you need to',
   ],
-  visual: { label: 'Managed portfolio', sub: 'Live', balance: '+18.2%', note: 'this quarter', bars: [28, 40, 36, 54, 48, 66, 62, 78, 72], badge: 'Data-driven' },
+  image: '/portfolio-management.webp',
+  imageAlt: 'Manage your portfolio with data-driven trading on the Austerio Smart Up platform',
+  imageW: 1100, imageH: 732,
 }
 
 export const faq = [
   {
-    q: 'Is Zephgain Legit?',
-    a: 'Yes. Zephgain is an AI-powered trading platform with a community score of 4.8 out of 5 based on 1,247 independent reviews. Every trade, signal, and performance figure is visible in real time, and traders across Australia use the platform daily for fast execution.',
+    q: 'Is Austerio Smart Up Legit?',
+    a: 'Yes. Austerio Smart Up is an AI-driven automated trading platform with a community score of 4.8 out of 5 based on 1,247 independent reviews. Every trade, signal, and performance figure is visible in real time, and traders across Australia use the platform daily for fast execution.',
   },
   {
-    q: 'How Much Do I Need to Start Trading on Zephgain?',
-    a: 'A minimum deposit of AU$250 activates your trading account — with no subscription fees, hidden charges, or registration costs. Start small and grow at a pace that suits you.',
+    q: 'How Much Do I Need to Start Trading on Austerio Smart Up?',
+    a: 'A minimum deposit of AU$250 is all it takes to activate your trading account — with no subscription fees, hidden charges, or registration costs. Start small and grow at a pace that feels right for you.',
   },
   {
-    q: 'How Secure Are My Money and Data on Zephgain?',
-    a: 'Security runs through every layer of the platform. Your personal data is shielded by internationally recognised encryption, two-factor authentication, and cold storage for 95% of client funds.',
+    q: 'How Secure Are My Money and Data on Austerio Smart Up?',
+    a: 'Security runs through every layer of the platform. Your personal data is shielded by internationally recognised encryption and two-factor authentication, while 95% of client funds are kept in cold storage.',
   },
   {
     q: 'What Payment Methods Can I Use to Withdraw?',
     a: 'Withdrawals follow the same channels as your deposit — including major credit cards, bank transfers, and PayPal. Most requests are processed within 24 hours.',
   },
   {
-    q: 'How Does Zephgain Maintain Transparency?',
-    a: 'Openness is built into how Zephgain works. Every trade, signal, and balance change appears in your account in real time, supported by live reserve audits and upfront pricing.',
+    q: 'How Does Austerio Smart Up Maintain Transparency?',
+    a: 'Openness is wired into the way the platform works. Every trade, signal, and balance change appears in your account in real time, supported by live reserve audits and upfront pricing.',
   },
   {
     q: 'Why Are There So Many Copycat Versions of Your Platform Online?',
-    a: "Our platform's popularity has made it a target for bad actors who build lookalike (scam) sites to mislead visitors. Always double-check that you are on the official domain — zephgain-au.com.",
+    a: "Our platform's popularity has made it a target for bad actors who build lookalike (scam) sites to mislead visitors. Always double-check that you are on the official domain — austeriosmart-up.com.",
   },
 ]
 
@@ -230,7 +246,7 @@ export const capabilities = [
 ]
 
 export const footer = {
-  blurb: 'Zephgain is an AI-driven automated trading platform for users in Australia — automated strategies, live market insights, and dependable security in one place.',
+  blurb: 'Austerio Smart Up is an AI-driven automated trading platform for users in Australia — automated strategies, live market insight, and dependable security all in one place.',
   company: [
     { label: 'Home', href: '/' },
     { label: 'About Us', href: '/about' },
@@ -246,5 +262,5 @@ export const footer = {
     { label: 'Sign Up', href: '/', scroll: '#register' },
   ],
   disclaimer:
-    'HIGH RISK WARNING: Dealing or trading FX, CFDs, cryptocurrencies and other financial instruments is highly speculative, carries a non-negligible level of risk and may not be suitable for all investors. You may lose some or all of your invested capital, therefore you should not speculate with capital that you cannot afford to lose. All profit examples shown on this website are illustrative and do not guarantee similar results. Zephgain operates as a technology services company, does not provide financial, investment or legal advice, and does not accept any liability for loss or damage as a result of reliance on the information contained within this website. Laws regarding financial activities vary throughout the world, and it is your sole responsibility to ensure that your use of this website complies with applicable laws and regulations in your jurisdiction of residence.',
+    'HIGH RISK WARNING: Trading FX, CFDs, cryptocurrencies, and other financial instruments is highly speculative, carries significant risk, and may not suit all investors. You could lose some or all of your invested capital, so never speculate with money you cannot afford to lose. All profit examples shown on this website are illustrative only and do not guarantee similar results. Austerio Smart Up operates as a technology services company, does not provide financial, investment, or legal advice, and accepts no liability for loss or damage arising from reliance on the information contained on this website. Laws governing financial activities differ around the world, and it is your sole responsibility to make sure your use of this website complies with the laws and regulations of your jurisdiction of residence.',
 }

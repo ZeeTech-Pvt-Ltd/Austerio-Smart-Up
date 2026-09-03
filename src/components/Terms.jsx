@@ -1,11 +1,11 @@
 // Terms of Use — layout follows the gemwealth-holm terms reference; all copy is
-// rewritten for Zephgain in its own words. Brand colors/fonts unchanged.
+// rewritten for Austerio Smart Up in its own words. Brand colors/fonts unchanged.
 const sections = [
   {
     n: '01',
     t: 'Acceptance of Terms',
     p: [
-      "These Terms of Use (\"Terms\") govern your access to and use of the Zephgain website and platform (the \"Service\"). By creating an account or otherwise using the Service, you confirm that you have read, understood, and agree to be bound by these Terms, together with our Privacy Policy and Risk Disclosure.",
+      "These Terms of Use (\"Terms\") govern your access to and use of the Austerio Smart Up website and platform (the \"Service\"). By creating an account or otherwise using the Service, you confirm that you have read, understood, and agree to be bound by these Terms, together with our Privacy Policy and Risk Disclosure.",
       'If you do not agree to these Terms, you must not register for or use the Service.',
     ],
   },
@@ -20,8 +20,8 @@ const sections = [
     n: '03',
     t: 'Nature of the Service',
     p: [
-      'Zephgain provides technology and information tools, including AI-assisted market analysis, trading signals, and related content. The Service is provided for informational purposes only.',
-      'Zephgain is not a licensed financial adviser, broker, or investment manager. Nothing on the Service constitutes personalised investment advice, a recommendation, an offer, or a solicitation to buy or sell any asset. Any decision you make — and its outcome — remains your responsibility.',
+      'Austerio Smart Up provides technology and information tools, including AI-assisted market analysis, trading signals, and related content. The Service is provided for informational purposes only.',
+      'Austerio Smart Up is not a licensed financial adviser, broker, or investment manager. Nothing on the Service constitutes personalised investment advice, a recommendation, an offer, or a solicitation to buy or sell any asset. Any decision you make — and its outcome — remains your responsibility.',
     ],
   },
   {
@@ -42,7 +42,7 @@ const sections = [
     n: '06',
     t: 'Fees',
     p: [
-      'Where applicable, fees are disclosed before you commit to any action. By proceeding, you authorise the deduction of such fees. We may adjust fees from time to time, with notice where required by law. Zephgain does not charge registration or subscription fees.',
+      'Where applicable, fees are disclosed before you commit to any action. By proceeding, you authorise the deduction of such fees. We may adjust fees from time to time, with notice where required by law. Austerio Smart Up does not charge registration or subscription fees.',
     ],
   },
   {
@@ -56,7 +56,7 @@ const sections = [
     n: '08',
     t: 'Intellectual Property',
     p: [
-      'The Service and all content, software, and materials made available through it are owned by or licensed to Zephgain and are protected by intellectual property laws. You may not copy, modify, distribute, or create derivative works from any part of the Service without our prior written consent.',
+      'The Service and all content, software, and materials made available through it are owned by or licensed to Austerio Smart Up and are protected by intellectual property laws. You may not copy, modify, distribute, or create derivative works from any part of the Service without our prior written consent.',
     ],
   },
   {
@@ -77,7 +77,7 @@ const sections = [
     n: '11',
     t: 'Limitation of Liability',
     p: [
-      'To the maximum extent permitted by law, Zephgain, its affiliates, officers, and employees shall not be liable for any indirect, incidental, special, or consequential damages, or for any loss of profits, data, or goodwill, arising out of or in connection with your use of the Service.',
+      'To the maximum extent permitted by law, Austerio Smart Up, its affiliates, officers, and employees shall not be liable for any indirect, incidental, special, or consequential damages, or for any loss of profits, data, or goodwill, arising out of or in connection with your use of the Service.',
     ],
   },
   {
@@ -113,7 +113,7 @@ export default function Terms() {
           <h1 className="h1">
             Terms of <mark>Use</mark>
           </h1>
-          <p className="lead">The rules that govern your use of the Zephgain platform.</p>
+          <p className="lead">The rules that govern your use of the Austerio Smart Up platform.</p>
           <span className="terms-updated">Last updated: 31 August 2026</span>
         </div>
       </section>
