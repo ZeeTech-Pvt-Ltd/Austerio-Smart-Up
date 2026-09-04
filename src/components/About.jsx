@@ -52,26 +52,31 @@ const story = [
   {
     step: '01',
     title: 'The Beginning',
+    image: '/about/the-beginning.webp', w: 900, h: 675,
     text: 'Austerio Smart Up began with six specialists in fintech and algorithmic trading who shared one goal — to make automated trading as simple and dependable as everyday online banking.',
   },
   {
     step: '02',
     title: 'First Launch',
+    image: '/about/first-launch.webp', w: 900, h: 675,
     text: 'The platform launched with 12 cryptocurrencies, and more than 10,000 traders joined in the very first month. A clean, uncluttered interface paired with hands-free automation was what set it apart from day one.',
   },
   {
     step: '03',
     title: 'Growing the Community',
+    image: '/about/growing-the-community.webp', w: 900, h: 675,
     text: 'Within its first year, Austerio Smart Up passed 500,000 users. More currencies were added, alongside round-the-clock customer support in several languages.',
   },
   {
     step: '04',
     title: 'Reaching New Markets',
+    image: '/about/reaching-new-markets.webp', w: 900, h: 675,
     text: 'As demand grew, Austerio Smart Up expanded into many new markets — adding local payment options and switching on two-factor authentication for every account along the way.',
   },
   {
     step: '05',
     title: 'Today',
+    image: '/about/today.webp', w: 900, h: 600,
     text: 'Now serving 4M+ registered users across 65+ currencies, Austerio Smart Up keeps growing every day — with the original mission unchanged: make automated trading accessible to everyone.',
   },
 ]
@@ -194,8 +199,10 @@ export default function About() {
                 <div className="about-story-media">
                   <span className="about-story-fallback" aria-hidden="true">{s.step}</span>
                   <img
-                    src={`/about/story-${i + 1}.webp`}
+                    src={s.image}
                     alt={`${s.title} — Austerio Smart Up`}
+                    width={s.w}
+                    height={s.h}
                     loading="lazy"
                     onError={(e) => { e.currentTarget.style.display = 'none' }}
                   />

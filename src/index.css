@@ -859,15 +859,15 @@ body.menu-open { overflow: hidden; }
 .about-story { display: grid; gap: 48px; max-width: 980px; margin-inline: auto; }
 .about-story-row { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; align-items: center; }
 .about-story-row.reverse .about-story-media { order: 2; }
-/* About story imagery — real photos in a branded 16:10 frame.
-   A photo is expected at /about/story-N.jpg; if one is missing the
-   large step number shows as a graceful branded placeholder. */
+/* About story imagery — brand visuals shown at their natural size so the
+   uploaded artwork is never cropped. If an image is ever missing, the large
+   step number still shows as a graceful branded placeholder. */
 .about-story-media {
-  position: relative; border-radius: var(--r-lg); border: 1px solid var(--line); box-shadow: var(--shadow-md);
+  position: relative; border-radius: 20px; overflow: hidden;
   background: radial-gradient(30rem 22rem at 72% 0%, rgba(139, 92, 246, .10), transparent 60%), linear-gradient(180deg, var(--primary-lightest), #fff);
-  aspect-ratio: 16 / 10; overflow: hidden;
+  box-shadow: var(--shadow-md); line-height: 0; min-height: 240px;
 }
-.about-story-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.about-story-media img { display: block; width: 100%; height: auto; }
 .about-story-media .about-story-fallback {
   position: absolute; inset: 0; display: grid; place-items: center;
   font-size: 76px; font-weight: 800; letter-spacing: .02em; color: rgba(109, 40, 217, .13);
