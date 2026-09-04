@@ -84,7 +84,7 @@ export const experience = {
       ],
       image: '/exp-advanced-ai.webp',
       imageAlt: 'Advanced AI Technologies visual on the Austerio Smart Up platform',
-      imageW: 1080, imageH: 810,
+      imageW: 700, imageH: 525,
     },
     {
       title: 'AI-Powered Trading Engine',
@@ -97,7 +97,7 @@ export const experience = {
       ],
       image: '/exp-ai-engine.webp',
       imageAlt: 'AI-Powered Trading Engine visual on the Austerio Smart Up platform',
-      imageW: 1080, imageH: 810,
+      imageW: 700, imageH: 525,
     },
     {
       title: 'Simple and Clear Investing',
@@ -110,7 +110,7 @@ export const experience = {
       ],
       image: '/simple-clear-investing.webp',
       imageAlt: 'Simple, clear and easy-to-follow investing on the Austerio Smart Up platform',
-      imageW: 880, imageH: 926,
+      imageW: 540, imageH: 568,
     },
     {
       title: 'Convenient and Reliable Management',
@@ -123,7 +123,7 @@ export const experience = {
       ],
       image: '/convenient-reliable-management.webp',
       imageAlt: 'Convenient and reliable account management on the Austerio Smart Up platform',
-      imageW: 1000, imageH: 800,
+      imageW: 620, imageH: 496,
     },
   ],
 }
