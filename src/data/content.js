@@ -75,14 +75,26 @@ export const experience = {
   rows: [
     {
       title: 'Advanced AI Technologies',
-      text: "Intelligent automation sits at the heart of the platform. Austerio Smart Up keeps an eye on live markets and acts on opportunities across many asset classes — the heavy lifting happens for you while you stay in full control of your account.",
+      text: "Intelligent automation sits at the heart of the platform. Austerio Smart Up keeps an eye on live markets and acts on opportunities across Bitcoin, Ethereum, stocks and forex — the heavy lifting happens for you while you stay in full control of your account. Instead of trailing every chart yourself, you get one place where signals are spotted, assessed and ready to act on in real time.",
+      list: [
+        'Live coverage across Bitcoin, Ethereum, stocks and forex',
+        'Opportunities are detected and acted on automatically',
+        'Real-time market insights, refreshed as prices move',
+        'Full control stays with you — automation does the legwork',
+      ],
       image: '/exp-advanced-ai.webp',
       imageAlt: 'Advanced AI Technologies visual on the Austerio Smart Up platform',
       imageW: 1080, imageH: 810,
     },
     {
       title: 'AI-Powered Trading Engine',
-      text: 'The adaptive engine responds the moment market conditions shift. Cryptocurrency trading carries risk by nature, yet a transparent approach and responsive technology give you tools built for speed and clarity.',
+      text: 'The adaptive engine responds the moment market conditions shift. Cryptocurrency trading carries risk by nature, yet a transparent approach and responsive technology give you tools built for speed and clarity. Every execution stays visible and easy to follow, so you can always see how the platform reached a decision and change course the moment you want to.',
+      list: [
+        'Reacts the instant market conditions change',
+        'Transparent technology — every move is easy to follow',
+        'Real-time signals, delivered around the clock',
+        'Built for speed without sacrificing clarity',
+      ],
       image: '/exp-ai-engine.webp',
       imageAlt: 'AI-Powered Trading Engine visual on the Austerio Smart Up platform',
       imageW: 1080, imageH: 810,
@@ -102,7 +114,13 @@ export const experience = {
     },
     {
       title: 'Convenient and Reliable Management',
-      text: 'Your dashboard keeps trades, performance, and signals in one tidy view, so you always know exactly where you stand. That clarity is a big part of why traders rely on Austerio Smart Up day after day.',
+      text: 'Your dashboard keeps trades, performance, and signals in one tidy view, so you always know exactly where you stand. That clarity is a big part of why traders rely on Austerio Smart Up day after day. Deposits, withdrawals and balances are every bit as straightforward, so nothing stands between you and a decision when the moment feels right.',
+      list: [
+        'Trades, performance and signals in one tidy dashboard',
+        'A clear, up-to-date view of your whole account',
+        'Withdraw your funds whenever you need to',
+        'Transparent balances and easy-to-read records',
+      ],
       image: '/convenient-reliable-management.webp',
       imageAlt: 'Convenient and reliable account management on the Austerio Smart Up platform',
       imageW: 1000, imageH: 800,
