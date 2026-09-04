@@ -827,6 +827,8 @@ body.menu-open { overflow: hidden; }
 
 .about-section { padding: 72px 0; }
 .about-section.alt { background: var(--primary-lightest); }
+/* Our Story — extra breathing room above & below the story rows */
+.about-section.about-story-sec { padding: 92px 0; }
 
 .about-pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 .about-pillar, .about-sec-card {

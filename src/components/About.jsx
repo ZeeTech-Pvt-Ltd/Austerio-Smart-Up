@@ -186,7 +186,7 @@ export default function About() {
       </section>
 
       {/* Story */}
-      <section className="section about-section">
+      <section className="section about-section about-story-sec">
         <div className="container">
           <div className="section-head reveal">
             <span className="eyebrow">Our Story</span>
