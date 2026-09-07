@@ -27,7 +27,7 @@ export default function Hero() {
           </ul>
 
           <div className="hero-cta">
-            <a className="btn btn-primary" href="/" data-scroll="#register">
+            <a className="btn btn-primary" href="/contact">
               Register Now <ArrowRight />
             </a>
             <a className="btn btn-ghost" href="/how-it-works">How It Works</a>
