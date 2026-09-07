@@ -189,21 +189,6 @@ export const seo = {
     ],
   },
 
-  'why-invest': {
-    title: 'Why Invest with Austerio Smart Up — Security & Simplicity',
-    description:
-      'Why 4M+ verified users choose Austerio Smart Up — 95% cold storage, 2FA, 256-bit SSL, transparent pricing, and automated AI trading for every level.',
-    keywords: 'why invest with Austerio Smart Up, secure automated trading, Austerio Smart Up security, automated trading benefits',
-    canonical: `${SITE}/why-invest`,
-    robots: 'index, follow, max-image-preview:large, max-snippet:-1',
-    type: 'website',
-    ogImageAlt: 'Why invest with Austerio Smart Up — security, simplicity, and transparency',
-    schema: [
-      webPage('Why Invest with Austerio Smart Up', `${SITE}/why-invest`, 'Why traders choose Austerio Smart Up — security, simplicity, and transparency in automated AI trading.'),
-      breadcrumb('Why Invest', '/why-invest'),
-    ],
-  },
-
   'austeriosmart-up-review-australia-scam': {
     title: 'Austerio Smart Up Review Australia: Scam or Legit? (2026)',
     description:
