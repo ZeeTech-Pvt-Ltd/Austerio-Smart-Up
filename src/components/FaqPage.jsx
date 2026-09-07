@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { ChevronDown } from './icons.jsx'
+import { ChevronDown, ArrowRight } from './icons.jsx'
 import { faqPage } from '../data/content.js'
 
 // Turns "[Sign Up form](/)" tokens in an answer into real <a> links.
@@ -81,10 +81,13 @@ export default function FaqPage() {
             ))}
           </div>
 
-          <div className="blog-cta faqpage-cta reveal">
-            <h3>Still have questions?</h3>
-            <p>Our team is happy to help with anything not covered above.</p>
-            <a className="btn btn-primary" href="/contact">Contact Us</a>
+          <div className="faq-support reveal">
+            <span className="eyebrow">Support</span>
+            <h2>Still have questions?</h2>
+            <p>Our team is happy to help with anything not covered above — send us a message and we will point you in the right direction.</p>
+            <a className="btn btn-light" href="/contact">
+              Contact Us <ArrowRight />
+            </a>
           </div>
         </div>
       </section>

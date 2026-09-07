@@ -1074,7 +1074,7 @@ body.menu-open { overflow: hidden; }
 }
 .faq-a p a:hover { text-decoration-color: var(--primary); }
 .faq-support {
-  position: relative; overflow: hidden; margin-top: 34px;
+  position: relative; overflow: hidden; margin-top: 60px;
   text-align: center; color: #fff; background: var(--grad);
   border-radius: var(--r-lg); padding: 56px 34px;
   box-shadow: var(--shadow-lg);
@@ -1095,7 +1095,7 @@ body.menu-open { overflow: hidden; }
 
 @media (max-width: 640px) {
   .faqpage-body { padding: 40px 0 64px; }
-  .faq-support { padding: 40px 20px; }
+  .faq-support { margin-top: 44px; padding: 40px 20px; }
 }
 
 /* ---------- Responsive ---------- */
