@@ -7,7 +7,8 @@ export const nav = [
   { label: 'About Us', href: '/about' },
   { label: 'How It Works', href: '/how-it-works' },
   { label: 'Why Invest', href: '/why-invest' },
-  { label: 'FAQ', href: '/', scroll: '#faq' },
+  { label: 'Reviews', href: '/austeriosmart-up-review-australia-scam' },
+  { label: 'FAQ', href: '/faq' },
   { label: 'Contact', href: '/contact' },
 ]
 
@@ -225,6 +226,56 @@ export const portfolio = {
   imageW: 1100, imageH: 732,
 }
 
+// Full FAQ for the standalone /faq page. Answers are the platform's own
+// (shared with the .net property) with [label](/route) tokens hyperlinked on
+// the page; the FAQPage schema strips the tokens before emitting JSON-LD.
+export const faqPage = [
+  {
+    q: 'What does Austerio Smart Up actually do?',
+    a: 'Austerio Smart Up uses AI-driven data analysis to process large volumes of market and industry data, surfacing patterns and generating structured recommendations. Our platform is designed to support decision-making for professionals and investors, not to replace independent judgement or professional advice.',
+  },
+  {
+    q: 'Is Austerio Smart Up a financial advisory service?',
+    a: 'No. Austerio Smart Up provides data-informed insights and analysis tools. Nothing produced by our platform constitutes personalised financial advice, a recommendation to buy or sell any asset, or a guarantee of any outcome. Users should consult a licensed advisor before making financial decisions.',
+  },
+  {
+    q: 'How often are reports and recommendations updated?',
+    a: 'Our system processes incoming data continuously and compiles daily reports summarising activity, flagged scenarios, and any logged recommendations. Update frequency for specific data streams may vary depending on source availability.',
+  },
+  {
+    q: 'Who is Austerio Smart Up designed for?',
+    a: 'Austerio Smart Up is built for professionals and investors who want a structured, data-first view of market activity. It suits users who are comfortable reviewing analytical output and applying their own judgement rather than expecting turnkey instructions.',
+  },
+  {
+    q: 'Can I access historical reports and past recommendations?',
+    a: 'Recommendations and key outputs are logged so you can review how a given scenario was assessed over time. This is intended for transparency and review purposes, not as a promise of future performance.',
+  },
+  {
+    q: 'Does Austerio Smart Up guarantee accurate predictions?',
+    a: 'No. All analysis involves uncertainty, and past patterns do not guarantee future results. We do not make exaggerated claims about accuracy, and every output should be treated as one input among several in your own decision-making process.',
+  },
+  {
+    q: 'How do I get started on the platform?',
+    a: 'You can get started using the [Sign Up form](/), available in the navigation menu or on the homepage. This will guide you through the next steps for onboarding.',
+  },
+  {
+    q: 'What kind of data does Austerio Smart Up analyse?',
+    a: 'Our systems are designed to ingest and process structured market and industry data relevant to the scenarios covered on our platform. Specific data sources and coverage may evolve as the platform develops.',
+  },
+  {
+    q: 'Is there a minimum commitment or contract length?',
+    a: 'Access terms are outlined during the onboarding process. For full details on entry requirements and terms of use, please refer to our [Terms of Use](/terms) or contact us directly.',
+  },
+  {
+    q: 'How is my information handled?',
+    a: 'We take data handling seriously and outline our practices in our [Privacy Policy](/privacy). We recommend reviewing that page for details on what information is collected and how it is used.',
+  },
+  {
+    q: 'What should I do if I have a question not covered here?',
+    a: '[Visit our Contact page](/contact) to reach our team directly. We aim to respond to enquiries about the platform, access, and general usage as promptly as possible.',
+  },
+]
+
 export const faq = [
   {
     q: 'Is Austerio Smart Up Legit?',
@@ -270,7 +321,8 @@ export const footer = {
     { label: 'About Us', href: '/about' },
     { label: 'How It Works', href: '/how-it-works' },
     { label: 'Why Invest', href: '/why-invest' },
-    { label: 'FAQ', href: '/', scroll: '#faq' },
+    { label: 'Austerio Smart Up Review', href: '/austeriosmart-up-review-australia-scam' },
+    { label: 'FAQ', href: '/faq' },
     { label: 'Contact Us', href: '/contact' },
   ],
   legal: [

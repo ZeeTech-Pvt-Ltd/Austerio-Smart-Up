@@ -28,10 +28,12 @@ const Privacy = lazy(() => import('./components/Privacy.jsx'))
 const RiskDisclosure = lazy(() => import('./components/RiskDisclosure.jsx'))
 const NotFound = lazy(() => import('./components/NotFound.jsx'))
 const ThankYou = lazy(() => import('./components/ThankYou.jsx'))
+const BlogArticle = lazy(() => import('./components/BlogArticle.jsx'))
+const FaqPage = lazy(() => import('./components/FaqPage.jsx'))
 
 // Clean-path routing: "/" -> home, "/about" -> About, anything unknown -> 404.
 // Fragment anchors like "#register" keep working as in-page scroll links.
-const KNOWN_ROUTES = ['about', 'contact', 'terms', 'privacy', 'disclosure', 'thank-you', 'how-it-works', 'why-invest']
+const KNOWN_ROUTES = ['about', 'contact', 'terms', 'privacy', 'disclosure', 'thank-you', 'how-it-works', 'why-invest', 'austeriosmart-up-review-australia-scam', 'faq']
 
 // Legacy case-variant paths redirect to their canonical lowercase form
 // (the page used to live at /How-It-Works).
@@ -180,6 +182,8 @@ export default function App() {
   if (route === 'thank-you') return <Layout routeName="thank-you"><ThankYou /></Layout>
   if (route === 'how-it-works') return <Layout routeName="how-it-works"><HowItWorks asPage /></Layout>
   if (route === 'why-invest') return <Layout routeName="why-invest"><Priorities asPage /></Layout>
+  if (route === 'austeriosmart-up-review-australia-scam') return <Layout routeName="austeriosmart-up-review-australia-scam"><BlogArticle /></Layout>
+  if (route === 'faq') return <Layout routeName="faq"><FaqPage /></Layout>
   if (route === '404') return <Layout routeName="404"><NotFound /></Layout>
 
   return (

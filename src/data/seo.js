@@ -5,7 +5,7 @@
 // cards, and JSON-LD structured data — consumed by <Seo/>.
 // Nothing here invents facts: all claims come from content.js.
 // =========================================================
-import { faq } from './content.js'
+import { faq, faqPage } from './content.js'
 
 const SITE = 'https://austeriosmart-up.com'
 export const OG_IMAGE = `${SITE}/og-image.png`
@@ -112,6 +112,22 @@ function faqPageSchema() {
   }
 }
 
+// Schema for the standalone /faq page, built from the longer faqPage list.
+// "[label](/route)" link tokens are stripped so JSON-LD holds clean text.
+const stripLinkTokens = (s) => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+
+function fullFaqSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqPage.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: stripLinkTokens(f.a) },
+    })),
+  }
+}
+
 const homeDescription =
   'Austerio Smart Up — AI-powered automated trading platform for Australia. 24/7 automated strategies, live signals, bank-grade security. Start with just AU$250.'
 
@@ -185,6 +201,37 @@ export const seo = {
     schema: [
       webPage('Why Invest with Austerio Smart Up', `${SITE}/why-invest`, 'Why traders choose Austerio Smart Up — security, simplicity, and transparency in automated AI trading.'),
       breadcrumb('Why Invest', '/why-invest'),
+    ],
+  },
+
+  'austeriosmart-up-review-australia-scam': {
+    title: 'Austerio Smart Up Review Australia: Scam or Legit? (2026)',
+    description:
+      'Austerio Smart Up review Australia — is it a scam or legit? Features, benefits, how to get started, plus a straight answer for Australian traders. Start with just AU$250.',
+    keywords: 'Austerio Smart Up review, is Austerio Smart Up legit, Austerio Smart Up scam, Austerio Smart Up Australia, automated trading platform review Australia',
+    canonical: `${SITE}/austeriosmart-up-review-australia-scam`,
+    robots: 'index, follow, max-image-preview:large, max-snippet:-1',
+    type: 'article',
+    ogImageAlt: 'Austerio Smart Up review Australia — is it a scam or legit?',
+    schema: [
+      webPage('Austerio Smart Up Review Australia: Scam or Legit?', `${SITE}/austeriosmart-up-review-australia-scam`, 'A straight Austerio Smart Up review for Australian traders — features, benefits, getting started, and whether the platform is a scam or legit.'),
+      breadcrumb('Austerio Smart Up Review', '/austeriosmart-up-review-australia-scam'),
+    ],
+  },
+
+  faq: {
+    title: 'Frequently Asked Questions — Austerio Smart Up',
+    description:
+      "Answers to common questions about Austerio Smart Up — what the platform does, how reporting and updates work, access requirements, data handling, and more. Can't find your answer? Contact our team.",
+    keywords: 'Austerio Smart Up FAQ, Austerio Smart Up questions, how does Austerio Smart Up work, Austerio Smart Up help, trading platform FAQ',
+    canonical: `${SITE}/faq`,
+    robots: 'index, follow, max-image-preview:large, max-snippet:-1',
+    type: 'website',
+    ogImageAlt: 'Austerio Smart Up frequently asked questions',
+    schema: [
+      webPage('Frequently Asked Questions', `${SITE}/faq`, 'Frequently asked questions about Austerio Smart Up — what the platform does, how reporting works, and how to get started.'),
+      breadcrumb('FAQ', '/faq'),
+      fullFaqSchema(),
     ],
   },
 
