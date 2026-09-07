@@ -319,7 +319,6 @@ export const footer = {
     { label: 'Home', href: '/' },
     { label: 'About Us', href: '/about' },
     { label: 'How It Works', href: '/how-it-works' },
-    { label: 'Austerio Smart Up Review', href: '/austeriosmart-up-review-australia-scam' },
     { label: 'FAQ', href: '/faq' },
     { label: 'Contact Us', href: '/contact' },
   ],
