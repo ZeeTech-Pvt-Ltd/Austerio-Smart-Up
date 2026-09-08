@@ -129,7 +129,7 @@ function fullFaqSchema() {
 }
 
 const homeDescription =
-  'Austerio Smart Up — AI-powered automated trading platform for Australia. 24/7 automated strategies, live signals, bank-grade security. Start with just AU$250.'
+  'Austerio Smart Up — AI-powered automated trading for Australia. 24/7 automated strategies, live signals, bank-grade security. Start with just AU$250.'
 
 export const seo = {
   home: {
@@ -147,7 +147,7 @@ export const seo = {
   about: {
     title: 'About Austerio Smart Up — Automated Trading Without the Complexity',
     description:
-      'Learn about Austerio Smart Up, the AI trading platform trusted by 4M+ users — automated analysis, bank-grade security, and 24/7 support for Australian traders.',
+      'Learn about Austerio Smart Up — the AI trading platform trusted by 4M+ users, with automated analysis, bank-grade security, and 24/7 support.',
     keywords: 'about Austerio Smart Up, Austerio Smart Up trading platform, automated trading platform australia, AI trading company',
     canonical: `${SITE}/about`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
@@ -162,7 +162,7 @@ export const seo = {
   contact: {
     title: 'Contact Austerio Smart Up — 24/7 Support for Australian Traders',
     description:
-      'Have a question about Austerio Smart Up or automated trading? Contact our 24/7 support team by email or the registration form — we usually reply within a few hours.',
+      'Questions about Austerio Smart Up or automated trading? Contact our 24/7 team by email or the registration form — replies usually within a few hours.',
     keywords: 'contact Austerio Smart Up, Austerio Smart Up support, automated trading help, automated trading Australia support',
     canonical: `${SITE}/contact`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
@@ -177,7 +177,7 @@ export const seo = {
   'how-it-works': {
     title: 'How Austerio Smart Up Works — Get Started in 3 Easy Steps',
     description:
-      'Getting started with Austerio Smart Up takes about two minutes. Create your account, deposit from just AU$250, and let the AI trade around the clock — no hidden fees.',
+      'Start with Austerio Smart Up in two minutes. Create your account, deposit from just AU$250, and let the AI trade around the clock. No hidden fees.',
     keywords: 'how to start automated trading, Austerio Smart Up sign up, AI trading steps, automated trading for beginners',
     canonical: `${SITE}/how-it-works`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
@@ -192,7 +192,7 @@ export const seo = {
   'austeriosmart-up-review-australia-scam': {
     title: 'Austerio Smart Up Review Australia: Scam or Legit? (2026)',
     description:
-      'Austerio Smart Up review Australia — is it a scam or legit? Features, benefits, how to get started, plus a straight answer for Australian traders. Start with just AU$250.',
+      'Austerio Smart Up review Australia — is it a scam or legit? Features, benefits, how to get started, plus a straight answer for Australian traders.',
     keywords: 'Austerio Smart Up review, is Austerio Smart Up legit, Austerio Smart Up scam, Austerio Smart Up Australia, automated trading platform review Australia',
     canonical: `${SITE}/austeriosmart-up-review-australia-scam`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
@@ -207,7 +207,7 @@ export const seo = {
   faq: {
     title: 'Frequently Asked Questions — Austerio Smart Up',
     description:
-      "Answers to common questions about Austerio Smart Up — what the platform does, how reporting and updates work, access requirements, data handling, and more. Can't find your answer? Contact our team.",
+      'Austerio Smart Up questions — what the platform does, how reporting works, access requirements, data handling. Not covered? Contact us.',
     keywords: 'Austerio Smart Up FAQ, Austerio Smart Up questions, how does Austerio Smart Up work, Austerio Smart Up help, trading platform FAQ',
     canonical: `${SITE}/faq`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
@@ -223,7 +223,7 @@ export const seo = {
   terms: {
     title: 'Terms of Use — Austerio Smart Up Automated Trading Platform',
     description:
-      'Read the Austerio Smart Up Terms of Use — the rules that govern use of the Austerio Smart Up AI-powered automated trading platform and its services for users in Australia.',
+      'Read the Austerio Smart Up Terms of Use — the rules that govern use of the platform and its services for users in Australia.',
     keywords: 'Austerio Smart Up terms of use, automated trading terms, platform terms',
     canonical: `${SITE}/terms`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
@@ -238,7 +238,7 @@ export const seo = {
   privacy: {
     title: 'Privacy Policy — Austerio Smart Up Automated Trading Platform',
     description:
-      'Read the Austerio Smart Up Privacy Policy — how Austerio Smart Up collects, uses, and protects your personal information on the automated trading platform.',
+      'Read the Austerio Smart Up Privacy Policy — how it collects, uses, and protects your personal information on the trading platform.',
     keywords: 'Austerio Smart Up privacy policy, data protection, trading platform privacy',
     canonical: `${SITE}/privacy`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
@@ -253,7 +253,7 @@ export const seo = {
   disclosure: {
     title: 'Risk Disclosure — Austerio Smart Up Automated Trading Platform',
     description:
-      'Read the Austerio Smart Up Risk Disclosure — important information about the risks of trading FX, CFDs, and cryptocurrencies on the automated trading platform.',
+      'Read the Austerio Smart Up Risk Disclosure — key information about the risks of trading FX, CFDs, and cryptocurrencies.',
     keywords: 'Austerio Smart Up risk disclosure, trading risk warning, CFD crypto risk',
     canonical: `${SITE}/disclosure`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
