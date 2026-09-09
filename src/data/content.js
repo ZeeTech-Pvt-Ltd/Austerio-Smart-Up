@@ -1,5 +1,5 @@
 // =========================================================
-// Central content file — edit all copy in one place
+// Central content file, edit all copy in one place
 // =========================================================
 
 export const nav = [
@@ -15,7 +15,7 @@ export const hero = {
   eyebrow: '🇦🇺 Chosen by traders across Australia',
   title: 'Austerio Smart Up',
   titleMark: 'Automated Trading Platform',
-  lead: 'Austerio Smart Up is an AI-powered trading platform made for Australia — automated strategies, live market signals, and dependable security in one easy-to-use place.',
+  lead: 'Austerio Smart Up is an AI-powered trading platform made for Australia, automated strategies, live market signals, and dependable security in one easy-to-use place.',
   checks: [
     'AI trading strategies that run for you around the clock',
     'Live market tracking with instant alerts, day and night',
@@ -40,14 +40,14 @@ export const steps = [
     no: 'STEP 1',
     icon: 'user',
     title: 'Create Your Account',
-    text: 'Signing up only takes a few minutes. Enter your first and last name, email, and phone number, and your account is ready — protected by two-factor authentication from the very start.',
+    text: 'Signing up only takes a few minutes. Enter your first and last name, email, and phone number, and your account is ready, protected by two-factor authentication from the very start.',
     cta: 'Start now',
   },
   {
     no: 'STEP 2',
     icon: 'wallet',
     title: 'Deposit Funds',
-    text: 'Begin with as little as AU$250. Pay by credit or debit card, direct bank transfer, or a popular e-wallet, and funds typically reach your account within minutes — no waiting around, no surprise charges.',
+    text: 'Begin with as little as AU$250. Pay by credit or debit card, direct bank transfer, or a popular e-wallet, and funds typically reach your account within minutes, no waiting around, no surprise charges.',
     cta: 'Deposit now',
     green: true,
   },
@@ -55,7 +55,7 @@ export const steps = [
     no: 'STEP 3',
     icon: 'chart',
     title: 'Start Trading',
-    text: 'Let the automation trade hands-free, or steer the markets yourself — it is your call. When auto mode is on, Austerio Smart Up watches prices 24/7, places trades on your behalf, and keeps your balance current in real time.',
+    text: 'Let the automation trade hands-free, or steer the markets yourself, it is your call. When auto mode is on, Austerio Smart Up watches prices 24/7, places trades on your behalf, and keeps your balance current in real time.',
     cta: 'Get started',
   },
 ]
@@ -75,12 +75,12 @@ export const experience = {
   rows: [
     {
       title: 'Advanced AI Technologies',
-      text: "Intelligent automation sits at the heart of the platform. Austerio Smart Up keeps an eye on live markets and acts on opportunities across Bitcoin, Ethereum, stocks and forex — the heavy lifting happens for you while you stay in full control of your account. Instead of trailing every chart yourself, you get one place where signals are spotted, assessed and ready to act on in real time.",
+      text: "Intelligent automation sits at the heart of the platform. Austerio Smart Up keeps an eye on live markets and acts on opportunities across Bitcoin, Ethereum, stocks and forex, the heavy lifting happens for you while you stay in full control of your account. Instead of trailing every chart yourself, you get one place where signals are spotted, assessed and ready to act on in real time.",
       list: [
         'Live coverage across Bitcoin, Ethereum, stocks and forex',
         'Opportunities are detected and acted on automatically',
         'Real-time market insights, refreshed as prices move',
-        'Full control stays with you — automation does the legwork',
+        'Full control stays with you, automation does the legwork',
       ],
       image: '/exp-advanced-ai.webp',
       imageAlt: 'Advanced AI Technologies visual on the Austerio Smart Up platform',
@@ -91,7 +91,7 @@ export const experience = {
       text: 'The adaptive engine responds the moment market conditions shift. Cryptocurrency trading carries risk by nature, yet a transparent approach and responsive technology give you tools built for speed and clarity. Every execution stays visible and easy to follow, so you can always see how the platform reached a decision and change course the moment you want to.',
       list: [
         'Reacts the instant market conditions change',
-        'Transparent technology — every move is easy to follow',
+        'Transparent technology, every move is easy to follow',
         'Real-time signals, delivered around the clock',
         'Built for speed without sacrificing clarity',
       ],
@@ -101,10 +101,10 @@ export const experience = {
     },
     {
       title: 'Simple and Clear Investing',
-      text: 'Whether you are trying trading for the first time or you already know the ropes, Austerio Smart Up keeps things refreshingly uncomplicated. Complex market ideas are broken down into plain-language steps, and the whole journey — from sign-up to your first trade — follows a clear, guided path. You never have to guess what a fee, a signal, or a setting actually means, because every move on the platform explains itself as you go.',
+      text: 'Whether you are trying trading for the first time or you already know the ropes, Austerio Smart Up keeps things refreshingly uncomplicated. Complex market ideas are broken down into plain-language steps, and the whole journey, from sign-up to your first trade, follows a clear, guided path. You never have to guess what a fee, a signal, or a setting actually means, because every move on the platform explains itself as you go.',
       list: [
         'Start trading in as few as three clicks',
-        'No confusing jargon — everything in plain language',
+        'No confusing jargon, everything in plain language',
         'A guided dashboard that always shows the next step',
         'Equally at home for total beginners and seasoned traders',
       ],
@@ -132,7 +132,7 @@ export const priorities = {
   eyebrow: 'Why Austerio Smart Up',
   title: 'Our ',
   titleMark: 'priorities',
-  lead: 'Security, simplicity, and total openness — at every single step.',
+  lead: 'Security, simplicity, and total openness, at every single step.',
   cards: [
     {
       big: '95%', cap: 'cold storage',
@@ -173,7 +173,7 @@ export const features = [
 export const precision = [
   {
     icon: 'lock', title: 'Smart Algorithms for Smarter Trading',
-    text: 'Advanced AI scans live market data and highlights emerging trends on your behalf — across Bitcoin, Ethereum, stocks, and forex.',
+    text: 'Advanced AI scans live market data and highlights emerging trends on your behalf, across Bitcoin, Ethereum, stocks, and forex.',
   },
   {
     icon: 'zap', title: 'Fast Execution, Precise Timing', green: true,
@@ -200,7 +200,7 @@ export const testimonials = {
       name: 'Megan Hartley', initials: 'MH', verified: 'Verified trade',
     },
     {
-      quote: "The speed caught my attention straight away, and taking money out has been hassle-free — every step is confirmed clearly before it processes.",
+      quote: "The speed caught my attention straight away, and taking money out has been hassle-free, every step is confirmed clearly before it processes.",
       name: 'Callum Whitford', initials: 'CW', verified: 'Verified trade',
     },
   ],
@@ -214,7 +214,7 @@ export const portfolio = {
   title: 'Manage Your ',
   titleMark: 'Portfolio with Data-Driven',
   titleEnd: ' Trading',
-  lead: 'Through the Austerio Smart Up platform, traders in Australia enjoy a clean, data-first experience — live performance tracking plus tools that are refreshingly simple to understand and use.',
+  lead: 'Through the Austerio Smart Up platform, traders in Australia enjoy a clean, data-first experience, live performance tracking plus tools that are refreshingly simple to understand and use.',
   checks: [
     'Live performance analytics',
     'Clear guidance at every step',
@@ -282,7 +282,7 @@ export const faq = [
   },
   {
     q: 'How Much Do I Need to Start Trading on Austerio Smart Up?',
-    a: 'A minimum deposit of AU$250 is all it takes to activate your trading account — with no subscription fees, hidden charges, or registration costs. Start small and grow at a pace that feels right for you.',
+    a: 'A minimum deposit of AU$250 is all it takes to activate your trading account, with no subscription fees, hidden charges, or registration costs. Start small and grow at a pace that feels right for you.',
   },
   {
     q: 'How Secure Are My Money and Data on Austerio Smart Up?',
@@ -290,7 +290,7 @@ export const faq = [
   },
   {
     q: 'What Payment Methods Can I Use to Withdraw?',
-    a: 'Withdrawals follow the same channels as your deposit — including major credit cards, bank transfers, and PayPal. Most requests are processed within 24 hours.',
+    a: 'Withdrawals follow the same channels as your deposit, including major credit cards, bank transfers, and PayPal. Most requests are processed within 24 hours.',
   },
   {
     q: 'How Does Austerio Smart Up Maintain Transparency?',
@@ -298,7 +298,7 @@ export const faq = [
   },
   {
     q: 'Why Are There So Many Copycat Versions of Your Platform Online?',
-    a: "Our platform's popularity has made it a target for bad actors who build lookalike (scam) sites to mislead visitors. Always double-check that you are on the official domain — austeriosmart-up.com.",
+    a: "Our platform's popularity has made it a target for bad actors who build lookalike (scam) sites to mislead visitors. Always double-check that you are on the official domain, austeriosmart-up.com.",
   },
 ]
 
@@ -314,7 +314,7 @@ export const capabilities = [
 ]
 
 export const footer = {
-  blurb: 'Austerio Smart Up is an AI-driven automated trading platform for users in Australia — automated strategies, live market insight, and dependable security all in one place.',
+  blurb: 'Austerio Smart Up is an AI-driven automated trading platform for users in Australia, automated strategies, live market insight, and dependable security all in one place.',
   company: [
     { label: 'Home', href: '/' },
     { label: 'About Us', href: '/about' },

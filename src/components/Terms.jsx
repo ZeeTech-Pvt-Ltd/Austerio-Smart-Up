@@ -1,4 +1,4 @@
-// Terms of Use — layout follows the gemwealth-holm terms reference; all copy is
+// Terms of Use, layout follows the gemwealth-holm terms reference; all copy is
 // rewritten for Austerio Smart Up in its own words. Brand colors/fonts unchanged.
 const sections = [
   {
@@ -21,7 +21,7 @@ const sections = [
     t: 'Nature of the Service',
     p: [
       'Austerio Smart Up provides technology and information tools, including AI-assisted market analysis, trading signals, and related content. The Service is provided for informational purposes only.',
-      'Austerio Smart Up is not a licensed financial adviser, broker, or investment manager. Nothing on the Service constitutes personalised investment advice, a recommendation, an offer, or a solicitation to buy or sell any asset. Any decision you make — and its outcome — remains your responsibility.',
+      'Austerio Smart Up is not a licensed financial adviser, broker, or investment manager. Nothing on the Service constitutes personalised investment advice, a recommendation, an offer, or a solicitation to buy or sell any asset. Any decision you make, and its outcome, remains your responsibility.',
     ],
   },
   {

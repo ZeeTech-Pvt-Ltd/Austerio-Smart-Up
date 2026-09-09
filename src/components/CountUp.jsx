@@ -1,7 +1,7 @@
 import useCountUp from '../hooks/useCountUp.js'
 
 /**
- * CountUp — counts a number up when it scrolls into view.
+ * CountUp, counts a number up when it scrolls into view.
  * Accepts a value string like "$500M+", "4.8★", "98+"; non-numeric
  * strings (e.g. "24/7") render statically.
  */

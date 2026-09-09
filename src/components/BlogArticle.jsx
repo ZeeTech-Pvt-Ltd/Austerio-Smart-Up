@@ -1,4 +1,4 @@
-// Blog review page: "Austerio Smart Up Review Australia — Scam or Legit?"
+// Blog review page: "Austerio Smart Up Review Australia, Scam or Legit?"
 // Rebuilt as an on-site article from the company's own review post, so the
 // search intent behind that URL ("is it a scam?") is answered on the official
 // domain instead of sending readers elsewhere. External "create account" links
@@ -14,11 +14,11 @@ export default function BlogArticle() {
         <div className="container blog-hero-inner reveal">
           <span className="eyebrow">Platform Review</span>
           <h1 className="h1">
-            Austerio Smart Up Review Australia — <mark>Scam or Legit?</mark>
+            Austerio Smart Up Review Australia, <mark>Scam or Legit?</mark>
           </h1>
           <p className="lead">
             A close look at Austerio Smart Up's features, benefits, and getting-started
-            process — and a straight answer on whether the platform is a scam or a
+            process, and a straight answer on whether the platform is a scam or a
             legitimate way to trade Australia's markets.
           </p>
           <div className="blog-meta">
@@ -38,7 +38,7 @@ export default function BlogArticle() {
             <p>
               As online trading grows, tools like{' '}
               <a href="/">Austerio Smart Up</a> become more important. Automated,
-              AI-assisted platforms promise to make markets more accessible — but
+              AI-assisted platforms promise to make markets more accessible, but
               that same popularity also attracts lookalike scam sites trading on the
               name. This review looks at what Austerio Smart Up actually is, how it
               works, and whether it is a dependable option for traders who want
@@ -49,7 +49,7 @@ export default function BlogArticle() {
               AI-driven automated trading platform used by traders across Australia,
               with 95% of client funds held in cold storage, two-factor
               authentication, and transparent, real-time account records. The only
-              real Austerio Smart Up lives at the official domain —{' '}
+              real Austerio Smart Up lives at the official domain:{' '}
               <b>austeriosmart-up.com</b>. Anything outside it should be treated as a
               copycat. Read the rest below to see how the platform works and whether
               it suits you.
@@ -64,7 +64,7 @@ export default function BlogArticle() {
               technology with data analysis to help traders get the most out of the
               market. Its focus is automated trading, and it positions itself as a
               provider of efficient, trustworthy, user-friendly tools that let both
-              novices and experienced traders compete effectively — across
+              novices and experienced traders compete effectively, across
               cryptocurrencies, forex, commodities, stocks, and indices. You can read
               more about the people and principles behind it on our{' '}
               <a href="/about">About Us</a> page.
@@ -81,18 +81,18 @@ export default function BlogArticle() {
             </p>
             <ol>
               <li>
-                <strong>Artificial Intelligence Market Analysis</strong> — The central
+                <strong>Artificial Intelligence Market Analysis</strong>, The central
                 feature is an AI-driven analysis engine that constantly scans market
                 data to find patterns and trends, letting you process far more
-                information than manual methods allow — and at far greater speed.
+                information than manual methods allow, and at far greater speed.
               </li>
               <li>
-                <strong>Automated Trading Capabilities</strong> — You define the
+                <strong>Automated Trading Capabilities</strong>, You define the
                 parameters and the algorithms carry out trades automatically,
                 avoiding emotional interference and keeping discipline intact.
               </li>
               <li>
-                <strong>Real-Time Trading Signals</strong> — The platform delivers
+                <strong>Real-Time Trading Signals</strong>, The platform delivers
                 live alerts about market opportunities, each one typically including:
                 <ul>
                   <li>Entry price</li>
@@ -102,12 +102,12 @@ export default function BlogArticle() {
                 </ul>
               </li>
               <li>
-                <strong>User-Friendly Interface</strong> — The design prioritises
+                <strong>User-Friendly Interface</strong>, The design prioritises
                 accessibility and usability, giving beginners an environment where
                 they can trade without deep technical knowledge.
               </li>
               <li>
-                <strong>Multi-Asset Trading Support</strong> — Trade a range of
+                <strong>Multi-Asset Trading Support</strong>, Trade a range of
                 markets from one account, which helps with diversification:
                 <ul>
                   <li>Cryptocurrencies</li>
@@ -118,11 +118,11 @@ export default function BlogArticle() {
                 </ul>
               </li>
               <li>
-                <strong>Multi-Device Compatibility</strong> — Accessible via desktop
+                <strong>Multi-Device Compatibility</strong>, Accessible via desktop
                 and mobile apps for on-the-go trading.
               </li>
               <li>
-                <strong>Security and Data Protection</strong> — The platform uses
+                <strong>Security and Data Protection</strong>, The platform uses
                 encryption, authentication protocols, and monitoring systems to
                 safeguard user data and transactions.
               </li>
@@ -134,27 +134,27 @@ export default function BlogArticle() {
             <h2>More Features Worth Knowing</h2>
             <ul>
               <li>
-                <strong>Real-Time Market Data</strong> — Up-to-the-minute information
+                <strong>Real-Time Market Data</strong>, Up-to-the-minute information
                 so you always decide with current data.
               </li>
               <li>
-                <strong>Customizable Interface</strong> — Personalise your dashboard
+                <strong>Customizable Interface</strong>, Personalise your dashboard
                 for the best usability.
               </li>
               <li>
-                <strong>Risk Management Tools</strong> — Safeguards such as stop-loss
+                <strong>Risk Management Tools</strong>, Safeguards such as stop-loss
                 and limit orders help protect your investment.
               </li>
               <li>
-                <strong>Comprehensive Educational Resources</strong> — Tutorials and
+                <strong>Comprehensive Educational Resources</strong>, Tutorials and
                 webinars to improve your knowledge as you grow.
               </li>
               <li>
-                <strong>Multi-Device Compatibility</strong> — Works on desktop and
+                <strong>Multi-Device Compatibility</strong>, Works on desktop and
                 mobile so you can trade anywhere.
               </li>
               <li>
-                <strong>24/7 Customer Support</strong> — Assistance available at any
+                <strong>24/7 Customer Support</strong>, Assistance available at any
                 hour, from real people.
               </li>
             </ul>
@@ -163,9 +163,9 @@ export default function BlogArticle() {
           {/* First CTA */}
           <div className="blog-cta reveal">
             <h3>Ready to put the platform to work?</h3>
-            <p>Join traders across Australia and let the AI scan the markets for you — around the clock.</p>
+            <p>Join traders across Australia and let the AI scan the markets for you, around the clock.</p>
             <a className="btn btn-primary" href={REGISTER_URL}>Create Your Trading Account Now</a>
-            <a className="btn-link" href={REGISTER_URL}>Read More — Click Here</a>
+            <a className="btn-link" href={REGISTER_URL}>Read More, Click Here</a>
           </div>
 
           {/* Benefits (numbered, 9) */}
@@ -174,42 +174,42 @@ export default function BlogArticle() {
             <p>AI-powered systems offer several advantages over conventional trading approaches:</p>
             <ol>
               <li>
-                <strong>Faster Market Analysis</strong> — Artificial intelligence can
+                <strong>Faster Market Analysis</strong>, Artificial intelligence can
                 assess thousands of data points in seconds, enabling quick reactions
                 to market shifts.
               </li>
               <li>
-                <strong>Reduced Emotional Trading</strong> — Emotion frequently causes
+                <strong>Reduced Emotional Trading</strong>, Emotion frequently causes
                 poor decisions; automated systems stick to set strategies, eliminating
                 emotional bias.
               </li>
               <li>
-                <strong>24/7 Market Monitoring</strong> — Because crypto trades around
+                <strong>24/7 Market Monitoring</strong>, Because crypto trades around
                 the clock, the AI can watch markets constantly and spot chances even
                 while you are away.
               </li>
               <li>
-                <strong>Accessibility for Beginners</strong> — Complicated trading
+                <strong>Accessibility for Beginners</strong>, Complicated trading
                 steps are broken down so newcomers can get started with confidence.
               </li>
               <li>
-                <strong>Portfolio Diversification</strong> — Simultaneous multi-asset
+                <strong>Portfolio Diversification</strong>, Simultaneous multi-asset
                 trading reduces reliance on any single investment.
               </li>
               <li>
-                <strong>Advanced Tools</strong> — Cutting-edge tools for superior
+                <strong>Advanced Tools</strong>, Cutting-edge tools for superior
                 trading insights.
               </li>
               <li>
-                <strong>High-Speed Processing</strong> — Quick execution times reduce
+                <strong>High-Speed Processing</strong>, Quick execution times reduce
                 risk in fast-moving markets.
               </li>
               <li>
-                <strong>Comprehensive Support</strong> — An extensive help center plus
+                <strong>Comprehensive Support</strong>, An extensive help center plus
                 customer support whenever you need it.
               </li>
               <li>
-                <strong>Continuous Updates</strong> — Regular software updates improve
+                <strong>Continuous Updates</strong>, Regular software updates improve
                 both functionality and security.
               </li>
             </ol>
@@ -219,28 +219,28 @@ export default function BlogArticle() {
           <div className="blog-section reveal">
             <h2>How to Get Started with Austerio Smart Up</h2>
             <p>
-              The first step is <strong>signing up</strong> — creating your account
+              The first step is <strong>signing up</strong>, creating your account
               takes just a few minutes. After that, the path is simple:
             </p>
             <ol>
               <li>
-                <strong>Deposit Funds</strong> — At least AU$250 is required to
+                <strong>Deposit Funds</strong>, At least AU$250 is required to
                 activate your account.
               </li>
               <li>
-                <strong>Try the Demo Account</strong> — Practice strategies without
+                <strong>Try the Demo Account</strong>, Practice strategies without
                 risk using the demo feature.
               </li>
               <li>
-                <strong>Set Trading Parameters</strong> — Adjust the settings to fit
+                <strong>Set Trading Parameters</strong>, Adjust the settings to fit
                 your preferences and risk tolerance.
               </li>
               <li>
-                <strong>Start Live Trading</strong> — Begin live trading with Austerio
+                <strong>Start Live Trading</strong>, Begin live trading with Austerio
                 Smart Up in the dynamic market.
               </li>
               <li>
-                <strong>Withdraw Funds</strong> — Withdrawals are handled within 24
+                <strong>Withdraw Funds</strong>, Withdrawals are handled within 24
                 hours for quick access to your earnings.
               </li>
             </ol>
@@ -257,19 +257,19 @@ export default function BlogArticle() {
             <p>New users of automated platforms should keep these points in mind:</p>
             <ul>
               <li>
-                <strong>Start with Small Investments</strong> — Begin small to learn
+                <strong>Start with Small Investments</strong>, Begin small to learn
                 how the platform operates before scaling up.
               </li>
               <li>
-                <strong>Learn Basic Trading Concepts</strong> — Understanding the
+                <strong>Learn Basic Trading Concepts</strong>, Understanding the
                 fundamentals helps you read signals and decide wisely.
               </li>
               <li>
-                <strong>Use Risk Management Tools</strong> — Set stop-loss limits and
+                <strong>Use Risk Management Tools</strong>, Set stop-loss limits and
                 avoid risking too much on a single trade.
               </li>
               <li>
-                <strong>Monitor Performance</strong> — Even automated systems need
+                <strong>Monitor Performance</strong>, Even automated systems need
                 periodic checking to make sure everything runs correctly.
               </li>
             </ul>
@@ -299,10 +299,10 @@ export default function BlogArticle() {
             </p>
           </div>
 
-          {/* Final CTA — leads to our own registration form on home */}
+          {/* Final CTA, leads to our own registration form on home */}
           <div className="blog-cta reveal">
             <h3>Is Austerio Smart Up right for you?</h3>
-            <p>Start with as little as AU$250 — no hidden fees, no subscriptions, withdraw whenever you like.</p>
+            <p>Start with as little as AU$250, no hidden fees, no subscriptions, withdraw whenever you like.</p>
             <a className="btn btn-primary" href="/" data-scroll="#register">Activate Now Your Account</a>
           </div>
         </div>

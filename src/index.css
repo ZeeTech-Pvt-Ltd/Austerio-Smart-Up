@@ -1,5 +1,5 @@
 /* =========================================================
-   Austerio Smart Up — design system (Royal Purple)
+   Austerio Smart Up, design system (Royal Purple)
    ========================================================= */
 :root {
   --primary: #6D28D9;
@@ -244,7 +244,7 @@ body.menu-open { overflow: hidden; }
 .field.error .error-msg { display: block; }
 .field.error .input { border-color: #D64545; }
 
-/* phone — combined field: [ flag + code | number ] in one input */
+/* phone, combined field: [ flag + code | number ] in one input */
 .pn-wrap {
   position: relative;
   display: flex; align-items: stretch;
@@ -397,7 +397,7 @@ body.menu-open { overflow: hidden; }
   background: radial-gradient(52rem 36rem at 90% -5%, rgba(139, 92, 246, .08), transparent 60%),
     linear-gradient(180deg, #F3F8FF 0%, #FFFFFF 100%);
 }
-/* Base styles are SHARED with the Portfolio card — keep them generic. */
+/* Base styles are SHARED with the Portfolio card, keep them generic. */
 .exp-row { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 46px; }
 .exp-row + .exp-row { margin-top: 72px; }
 .exp-row.reverse .exp-visual { order: -1; }
@@ -433,7 +433,7 @@ body.menu-open { overflow: hidden; }
 .exp-badge.b2 { top: -16px; right: -6px; }
 .exp-badge.b3 { bottom: -12px; right: 16px; }
 
-/* Experience redesign — bigger dashboard-style visuals, scoped to THIS section
+/* Experience redesign, bigger dashboard-style visuals, scoped to THIS section
    so the Portfolio card keeps its original look. */
 .exp-sec .exp-row { grid-template-columns: 1fr 1.1fr; align-items: center; gap: 56px; }
 .exp-sec .exp-row + .exp-row { margin-top: 120px; }
@@ -493,7 +493,7 @@ body.menu-open { overflow: hidden; }
   display: flex; align-items: center; justify-content: center;
 }
 
-/* Portfolio management visual — enlarged to match the platform cards */
+/* Portfolio management visual, enlarged to match the platform cards */
 .feat-duo .exp-visual { width: 100%; }
 .feat-duo .exp-card { max-width: 560px; padding: 26px 28px 28px; border-radius: 20px; box-shadow: 0 20px 50px rgba(109, 40, 217, .13); }
 .feat-duo .mini-label { font-size: 14px; }
@@ -588,7 +588,7 @@ body.menu-open { overflow: hidden; }
 .tst-person .verified { font-size: 12.5px; color: var(--green); font-weight: 600; }
 .tst-summary {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 18px;
-  margin-top: 34px; padding: 18px 26px; /* border aur shadow hata diye — flat, clean */
+  margin-top: 34px; padding: 18px 26px; /* border aur shadow hata diye, flat, clean */
 }
 .tst-summary .big { font-size: 40px; font-weight: 800; color: var(--primary); }
 .tst-summary .row { display: flex; align-items: center; gap: 12px; }
@@ -701,7 +701,7 @@ body.menu-open { overflow: hidden; }
 .ticker-item em.down { color: #C0392B; }
 @keyframes tickerX { to { transform: translateX(-50%); } }
 
-/* card top accent on hover — rounded pill */
+/* card top accent on hover, rounded pill */
 .step, .feat-card, .prio-card, .tst-card { position: relative; }
 .step::before, .feat-card::before, .prio-card::before, .tst-card::before {
   content: ""; position: absolute; top: -3px; left: 50%; width: 72%;
@@ -736,9 +736,9 @@ body.menu-open { overflow: hidden; }
     radial-gradient(30rem 22rem at 0% 100%, rgba(217, 70, 239, .08), transparent 60%);
 }
 .feat { background: radial-gradient(44rem 30rem at -10% 0%, rgba(139, 92, 246, .06), transparent 60%); }
-/* Portfolio management section — pure white (sirf #portfolio wala section) */
+/* Portfolio management section, pure white (sirf #portfolio wala section) */
 #portfolio { background: #fff; }
-/* "Built to perform" (Features) — subtle purple tint, separate-section feel */
+/* "Built to perform" (Features), subtle purple tint, separate-section feel */
 #features {
   background:
     radial-gradient(44rem 30rem at 110% 0%, rgba(139, 92, 246, .07), transparent 60%),
@@ -778,7 +778,7 @@ body.menu-open { overflow: hidden; }
 .about-chip.one { top: -10px; left: -45px; }
 .about-chip.two { bottom: 26px; right: -45px; }
 
-/* Trading visual (About hero) — original SVG/CSS dashboard in brand colours */
+/* Trading visual (About hero), original SVG/CSS dashboard in brand colours */
 .about-visual .tv-card {
   position: relative; width: 100%; border-radius: 22px; border: 1px solid var(--line);
   background: #fff; box-shadow: var(--shadow-lg); padding: 20px 22px 18px;
@@ -827,7 +827,7 @@ body.menu-open { overflow: hidden; }
 
 .about-section { padding: 72px 0; }
 .about-section.alt { background: var(--primary-lightest); }
-/* Our Story — extra breathing room above & below the story rows */
+/* Our Story, extra breathing room above & below the story rows */
 .about-section.about-story-sec { padding: 92px 0; }
 
 .about-pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
@@ -861,7 +861,7 @@ body.menu-open { overflow: hidden; }
 .about-story { display: grid; gap: 48px; max-width: 980px; margin-inline: auto; }
 .about-story-row { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; align-items: center; }
 .about-story-row.reverse .about-story-media { order: 2; }
-/* About story imagery — brand visuals shown at their natural size so the
+/* About story imagery, brand visuals shown at their natural size so the
    uploaded artwork is never cropped. If an image is ever missing, the large
    step number still shows as a graceful branded placeholder. */
 .about-story-media {

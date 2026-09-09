@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 
 /**
- * useCountUp — animates a number from 0 to `end` when its element scrolls
+ * useCountUp, animates a number from 0 to `end` when its element scrolls
  * into view. Returns { ref, display }. Pass prefix/suffix for $, %, ★, etc.
  */
 export default function useCountUp(end, { prefix = '', suffix = '', duration = 1500 } = {}) {

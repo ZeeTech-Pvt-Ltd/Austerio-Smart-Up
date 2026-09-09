@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 /**
- * useScrollSpy — returns the id of the section currently in view.
+ * useScrollSpy, returns the id of the section currently in view.
  * Pass the array of section ids to spy on.
  *
  * Perf: section offsets are measured once (plus on resize / shortly after
@@ -47,7 +47,7 @@ export default function useScrollSpy(ids) {
     measure()
     window.addEventListener('scroll', onScroll, { passive: true })
     window.addEventListener('resize', measure, { passive: true })
-    // Fonts/images can settle layout after paint — re-measure once more later.
+    // Fonts/images can settle layout after paint, re-measure once more later.
     const settle = setTimeout(measure, 1200)
 
     return () => {

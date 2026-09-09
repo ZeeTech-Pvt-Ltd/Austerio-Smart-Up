@@ -84,7 +84,7 @@ export default function FaqPage() {
           <div className="faq-support reveal">
             <span className="eyebrow">Support</span>
             <h2>Still have questions?</h2>
-            <p>Our team is happy to help with anything not covered above — send us a message and we will point you in the right direction.</p>
+            <p>Our team is happy to help with anything not covered above, send us a message and we will point you in the right direction.</p>
             <a className="btn btn-light" href="/contact">
               Contact Us <ArrowRight />
             </a>

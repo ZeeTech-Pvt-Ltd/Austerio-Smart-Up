@@ -19,7 +19,7 @@ import Footer from './components/Footer.jsx'
 
 // Route pages are code-split: each lazy chunk only loads when its route is
 // visited, so the home page (the landing page) ships a smaller initial bundle.
-// Home sections (Hero…FinalCta) stay eager — they're above/below the fold on
+// Home sections (Hero…FinalCta) stay eager, they're above/below the fold on
 // the page most visitors land on first.
 const About = lazy(() => import('./components/About.jsx'))
 const Contact = lazy(() => import('./components/Contact.jsx'))
@@ -83,7 +83,7 @@ export default function App() {
 
   // SPA link handling: "/about"-style links navigate without a page reload;
   // section anchors (#register, #how…) scroll on the current page but keep the
-  // URL clean — no "#" fragment appears. On route pages they go home first,
+  // URL clean, no "#" fragment appears. On route pages they go home first,
   // since those sections only exist on home.
   useEffect(() => {
     const onClick = (e) => {
@@ -92,7 +92,7 @@ export default function App() {
       const href = a.getAttribute('href')
       if (!href) return
 
-      // Placeholder links (footer socials) — keep URL clean, do nothing.
+      // Placeholder links (footer socials), keep URL clean, do nothing.
       if (href === '#') {
         e.preventDefault()
         return
@@ -137,7 +137,7 @@ export default function App() {
       if (href.startsWith('/')) {
         const next = getRoute(href)
         if (next === route) {
-          // Same page — just scroll to top, no reload.
+          // Same page, just scroll to top, no reload.
           e.preventDefault()
           window.scrollTo(0, 0)
           return
@@ -160,7 +160,7 @@ export default function App() {
     </div>
   )
 
-  // Shared page shell — SEO head metadata, header, main, footer.
+  // Shared page shell, SEO head metadata, header, main, footer.
   // Suspense wraps only the page content: the header/footer stay mounted
   // (no flash) while a lazy route chunk is still downloading.
   const Layout = ({ routeName, children }) => (

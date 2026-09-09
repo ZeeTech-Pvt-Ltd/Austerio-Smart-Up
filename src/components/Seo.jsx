@@ -4,7 +4,7 @@ import { seo, OG_IMAGE } from '../data/seo.js'
 const SITE = 'https://austeriosmart-up.com'
 
 /**
- * Seo — per-route head management for the Austerio Smart Up SPA.
+ * Seo, per-route head management for the Austerio Smart Up SPA.
  *
  * Syncs <title>, meta description/keywords/robots, canonical link,
  * Open Graph + Twitter tags, and JSON-LD structured data into
