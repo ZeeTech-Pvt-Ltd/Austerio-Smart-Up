@@ -77,16 +77,15 @@ export const experience = {
   ],
   rows: [
     {
-      title: 'Advanced AI Technologies',
-      text: "Intelligent automation sits at the heart of the platform. Austerio Smart Up keeps an eye on live markets and acts on opportunities across Bitcoin, Ethereum, stocks and forex, the heavy lifting happens for you while you stay in full control of your account. Instead of trailing every chart yourself, you get one place where signals are spotted, assessed and ready to act on in real time.",
+      title: 'AI Chart Analysis',
+      text: "The chart view keeps price movement in one clear picture, so you can see how a market has travelled and where it sits right now. Candles, price lines and simple markers point out the levels that tend to matter, and the whole chart stays easy to follow from a quick glance. It is a straightforward way to gauge a trend before you decide your next move.",
       list: [
-        'Live coverage across Bitcoin, Ethereum, stocks and forex',
-        'Opportunities are detected and acted on automatically',
-        'Real-time market insights, refreshed as prices move',
-        'Full control stays with you, automation does the legwork',
+        'Clean charts for Bitcoin, Ethereum, stocks and forex',
+        'Support and resistance levels marked straight on the chart',
+        'Pick a time frame that suits you and read the market at your own pace',
       ],
-      image: '/exp-advanced-ai.webp',
-      imageAlt: 'Advanced AI Technologies visual on the Austerio Smart Up platform',
+      image: '/exp-chart-analysis.webp',
+      imageAlt: 'Chart analysis view on the Austerio Smart Up platform',
       imageW: 700, imageH: 525,
     },
     {
