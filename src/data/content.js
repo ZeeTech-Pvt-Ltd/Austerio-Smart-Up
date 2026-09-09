@@ -68,10 +68,13 @@ export const trustStrip = [
 ]
 
 export const experience = {
-  eyebrow: 'The platform',
-  titleA: 'Experience Smarter Trading with ',
-  titleMark: 'AI-Driven Precision',
-  lead: 'A clear, secure environment that welcomes traders at every level. Austerio Smart Up pairs intelligent automation with live market insight for a fast, straightforward trading experience across Australia.',
+  eyebrow: 'Introduction',
+  titleA: 'What Is ',
+  titleMark: 'Austerio Smart Up?',
+  lead: [
+    'Austerio Smart Up is an online trading platform designed to bring market tools and account management into one easy-to-use dashboard. Users can follow market activity, review available trading opportunities and manage their account from one place.',
+    'The platform is designed to make the trading process easier to understand, whether you are new to online trading or already have experience.',
+  ],
   rows: [
     {
       title: 'Advanced AI Technologies',

@@ -9,7 +9,9 @@ export default function Experience() {
         <div className="section-head reveal">
           <span className="eyebrow">{eyebrow}</span>
           <h2 className="h2">{titleA}<mark>{titleMark}</mark></h2>
-          <p className="lead">{lead}</p>
+          {(Array.isArray(lead) ? lead : [lead]).map((p, i) => (
+            <p className="lead" key={i}>{p}</p>
+          ))}
         </div>
 
         {rows.map((row, i) => (
