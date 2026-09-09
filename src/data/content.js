@@ -15,7 +15,7 @@ export const hero = {
   eyebrow: '🇦🇺 Chosen by traders across Australia',
   title: 'Austerio Smart Up',
   titleMark: 'Automated Trading Platform',
-  lead: 'Austerio Smart Up is an AI-powered trading platform made for Australia, automated strategies, live market signals, and dependable security in one easy-to-use place.',
+  lead: 'Austerio Smart Up brings market tools, account management and automated trading features together in one place. Follow market activity, manage your account and make informed decisions with a platform designed to be simple to use.',
   checks: [
     'AI trading strategies that run for you around the clock',
     'Live market tracking with instant alerts, day and night',
