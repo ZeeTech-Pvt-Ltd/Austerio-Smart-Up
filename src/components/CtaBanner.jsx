@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { ArrowRight } from './icons.jsx'
 
 export default function CtaBanner({ eyebrow, title, text, cta }) {
@@ -10,9 +11,9 @@ export default function CtaBanner({ eyebrow, title, text, cta }) {
             <h2>{title}</h2>
             <p>{text}</p>
           </div>
-          <a className="btn btn-light" href="/" data-scroll="#register">
+          <Link className="btn btn-light" href="/#register">
             {cta} <ArrowRight />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

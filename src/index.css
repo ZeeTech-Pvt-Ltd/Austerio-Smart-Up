@@ -22,8 +22,10 @@
   --r-sm: 12px;
   --r-md: 18px;
   --r-lg: 26px;
-  --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  --font-heading: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  /* Font family variables are created by next/font at build time and
+     self-hosted, so the page makes no runtime request to Google Fonts. */
+  --font: var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-heading: var(--font-jakarta), var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -94,6 +96,7 @@ mark {
 }
 .section-head { max-width: 680px; margin: 0 auto 44px; text-align: center; display: grid; gap: 14px; }
 .section-head .eyebrow { justify-self: center; }
+.eyebrow-flag { width: 18px; height: 14px; border-radius: 2px; object-fit: cover; flex: 0 0 auto; }
 .section-head .lead { font-size: 16.5px; }
 
 /* ---------- Buttons ---------- */
@@ -243,6 +246,25 @@ body.menu-open { overflow: hidden; }
 .error-msg { color: #C0392B; font-size: 12.5px; display: none; }
 .field.error .error-msg { display: block; }
 .field.error .input { border-color: #D64545; }
+
+/* Consent checkbox, links to the Privacy Policy and Terms */
+.field label.consent {
+  display: flex; align-items: flex-start; gap: 9px;
+  font-size: 13px; font-weight: 500; color: var(--muted); line-height: 1.45;
+  cursor: pointer;
+}
+.field label.consent input {
+  width: 16px; height: 16px; margin-top: 2px; flex: 0 0 auto;
+  accent-color: var(--primary); cursor: pointer;
+}
+.field label.consent a { color: var(--primary); text-decoration: underline; }
+
+/* Honeypot: present in the DOM for bots, never seen or focused by people. */
+.hp-field {
+  position: absolute; left: -9999px; top: auto;
+  width: 1px; height: 1px; overflow: hidden;
+  opacity: 0; pointer-events: none;
+}
 
 /* phone, combined field: [ flag + code | number ] in one input */
 .pn-wrap {

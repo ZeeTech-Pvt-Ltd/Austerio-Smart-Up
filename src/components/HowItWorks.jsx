@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Icon, Check, ArrowRight } from './icons.jsx'
 import { steps, trustStrip } from '../data/content.js'
 
@@ -27,9 +28,9 @@ export default function HowItWorks({ asPage = false }) {
               </div>
               <h3>{step.title}</h3>
               <p>{step.text}</p>
-              <a className="btn-link" href="/" data-scroll="#register">
+              <Link className="btn-link" href="/#register">
                 {step.cta} <ArrowRight size={16} />
-              </a>
+              </Link>
             </article>
           ))}
         </div>

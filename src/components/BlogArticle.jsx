@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 // Blog review page: "Austerio Smart Up Review Australia, Scam or Legit?"
 // Rebuilt as an on-site article from the company's own review post, so the
 // search intent behind that URL ("is it a scam?") is answered on the official
@@ -37,7 +39,7 @@ export default function BlogArticle() {
             <h2>Introduction</h2>
             <p>
               As online trading grows, tools like{' '}
-              <a href="/">Austerio Smart Up</a> become more important. Automated,
+              <Link href="/">Austerio Smart Up</Link> become more important. Automated,
               AI-assisted platforms promise to make markets more accessible, but
               that same popularity also attracts lookalike scam sites trading on the
               name. This review looks at what Austerio Smart Up actually is, how it
@@ -67,7 +69,7 @@ export default function BlogArticle() {
               novices and experienced traders compete effectively, across
               cryptocurrencies, forex, commodities, stocks, and indices. You can read
               more about the people and principles behind it on our{' '}
-              <a href="/about">About Us</a> page.
+              <Link href="/about">About Us</Link> page.
             </p>
           </div>
 
@@ -246,7 +248,7 @@ export default function BlogArticle() {
             </ol>
             <p>
               New here? Our step-by-step{' '}
-              <a href="/how-it-works">How It Works</a> guide walks you through the
+              <Link href="/how-it-works">How It Works</Link> guide walks you through the
               whole journey, from sign-up to your first trade.
             </p>
           </div>
@@ -284,15 +286,15 @@ export default function BlogArticle() {
               user-centred design are its main strengths, making it a credible choice
               for anyone exploring growth opportunities in automated trading. If you
               still have questions, our{' '}
-              <a href="/" data-scroll="#faq">FAQ section</a> and{' '}
-              <a href="/contact">support team</a> are good places to start.
+              <Link href="/#faq">FAQ section</Link> and{' '}
+              <Link href="/contact">support team</Link> are good places to start.
             </p>
             <p>
               That said, artificial intelligence is reshaping financial trading, and
               while tools like this one can offer genuine insight and automation,
               trading always involves risk. AI should serve as assistance, never as a
               guarantee of profit. We publish a full{' '}
-              <a href="/disclosure">Risk Disclosure</a> so you can weigh up exactly
+              <Link href="/risk-disclosure">Risk Disclosure</Link> so you can weigh up exactly
               what is involved before you commit a single dollar. Research
               thoroughly, understand the risks, and establish a clear strategy before
               choosing any trading platform.
@@ -303,7 +305,7 @@ export default function BlogArticle() {
           <div className="blog-cta reveal">
             <h3>Is Austerio Smart Up right for you?</h3>
             <p>Start with as little as AU$250, no hidden fees, no subscriptions, withdraw whenever you like.</p>
-            <a className="btn btn-primary" href="/" data-scroll="#register">Activate Now Your Account</a>
+            <Link className="btn btn-primary" href="/#register">Activate Now Your Account</Link>
           </div>
         </div>
       </section>

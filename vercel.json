@@ -1,6 +1,0 @@
-{
-  "redirects": [
-    { "source": "/How-It-Works", "destination": "/how-it-works", "permanent": true }
-  ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
-}

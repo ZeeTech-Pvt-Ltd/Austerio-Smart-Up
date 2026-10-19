@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { ArrowRight } from './icons.jsx'
 
 export default function NotFound() {
@@ -13,10 +14,10 @@ export default function NotFound() {
           The page you&rsquo;re looking for doesn&rsquo;t exist, or has been moved to a new address.
         </p>
         <div className="nf-cta">
-          <a className="btn btn-primary" href="/">
+          <Link className="btn btn-primary" href="/">
             Back to Home <ArrowRight size={16} />
-          </a>
-          <a className="btn btn-ghost" href="/contact">Contact Us</a>
+          </Link>
+          <Link className="btn btn-ghost" href="/contact">Contact Us</Link>
         </div>
       </div>
     </section>

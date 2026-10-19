@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Check, ArrowRight } from './icons.jsx'
 
 export default function ThankYou() {
@@ -15,12 +16,12 @@ export default function ThankYou() {
         </p>
 
         <div className="ty-actions">
-          <a className="btn btn-primary" href="/">
+          <Link className="btn btn-primary" href="/">
             Back to Home <ArrowRight />
-          </a>
-          <a className="btn btn-ghost" href="/contact">
+          </Link>
+          <Link className="btn btn-ghost" href="/contact">
             Contact Us
-          </a>
+          </Link>
         </div>
 
         <div className="ty-next">

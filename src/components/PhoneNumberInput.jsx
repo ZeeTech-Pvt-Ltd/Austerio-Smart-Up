@@ -1,9 +1,14 @@
+'use client'
+
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { countries } from '../data/countries.js'
 
-// ISO code -> real flag image (flagcdn.com), same 20×15 flags as the reference.
+// ISO code -> local flag image bundled in public/flags (20×15 PNGs, copied
+// from flagcdn at build time and served from this domain). Loading them
+// locally means the picker still works when flagcdn is blocked by an ISP or
+// an ad blocker, and the page makes no third-party image request.
 // (Emoji flags don't render on Windows, they show as letters like "AU".)
-const flagSrc = (code) => `https://flagcdn.com/w20/${code.toLowerCase()}.png`
+const flagSrc = (code) => `/flags/${code.toLowerCase()}.png`
 
 // Pinned to the top of the list with a divider, like intl-tel-input's preferred countries
 const preferredCodes = ['US', 'GB']
@@ -123,7 +128,7 @@ export default function PhoneNumberInput({
               <li
                 key={code}
                 role="option"
-                aria-selected={code === value}
+                aria-selected={code === country}
                 className={`cp-pref ${code === country ? 'sel' : ''}`}
                 onClick={() => select([code, name, dial])}
               >

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import RegistrationForm from './RegistrationForm.jsx'
 import Ticker from './Ticker.jsx'
 import CountUp from './CountUp.jsx'
@@ -12,7 +13,12 @@ export default function Hero() {
 
       <div className="container hero-inner">
         <div className="hero-copy reveal">
-          <span className="eyebrow">{hero.eyebrow}</span>
+          <span className="eyebrow">
+            {/* Local PNG, not the flag emoji: Windows renders regional
+                indicator emoji as the letters "AU" instead of a flag. */}
+            <img className="eyebrow-flag" src="/flags/au.png" alt="" width="20" height="15" />
+            {hero.eyebrow}
+          </span>
           <h1 className="h1">
             {hero.title} <mark>{hero.titleMark}</mark>
           </h1>
@@ -27,10 +33,10 @@ export default function Hero() {
           </ul>
 
           <div className="hero-cta">
-            <a className="btn btn-primary" href="/contact">
+            <Link className="btn btn-primary" href="/contact">
               Register Now <ArrowRight />
-            </a>
-            <a className="btn btn-ghost" href="/how-it-works">How It Works</a>
+            </Link>
+            <Link className="btn btn-ghost" href="/how-it-works">How It Works</Link>
           </div>
 
           <div className="hero-stats">

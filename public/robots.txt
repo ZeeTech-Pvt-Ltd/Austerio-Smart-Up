@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-
-# Post-registration confirmation page — no indexing value
-Disallow: /thank-you
-
-Sitemap: https://austeriosmart-up.com/sitemap.xml

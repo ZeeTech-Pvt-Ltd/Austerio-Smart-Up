@@ -1,18 +1,20 @@
+'use client'
+
 import { useRef, useState } from 'react'
+import Link from 'next/link'
 import { ChevronDown, ArrowRight } from './icons.jsx'
 import { faqPage } from '../data/content.js'
 
-// Turns "[Sign Up form](/)" tokens in an answer into real <a> links.
+// Turns "[Sign Up form](/)" tokens in an answer into real links.
 const linkify = (text) =>
   text.split(/(\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
     const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
     if (!m) return part
     const [, label, href] = m
-    const hash = href.split('#')[1]
     return (
-      <a key={i} href={hash ? '/' : href} data-scroll={hash ? `#${hash}` : undefined}>
+      <Link key={i} href={href}>
         {label}
-      </a>
+      </Link>
     )
   })
 
@@ -85,9 +87,9 @@ export default function FaqPage() {
             <span className="eyebrow">Support</span>
             <h2>Still have questions?</h2>
             <p>Our team is happy to help with anything not covered above, send us a message and we will point you in the right direction.</p>
-            <a className="btn btn-light" href="/contact">
+            <Link className="btn btn-light" href="/contact">
               Contact Us <ArrowRight />
-            </a>
+            </Link>
           </div>
         </div>
       </section>

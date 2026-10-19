@@ -1,22 +1,26 @@
+'use client'
+
 import { useEffect, useMemo, useState } from 'react'
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import Logo from './Logo.jsx'
 import useScrollSpy from '../hooks/useScrollSpy.js'
 import { nav } from '../data/content.js'
 
-export default function Header({ route = 'home' }) {
+export default function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const route = pathname === '/' ? 'home' : pathname.replace(/^\/|\/$/g, '')
   const ids = useMemo(() => ['top', 'experience', 'priorities', 'faq', 'portfolio'], [])
   const active = useScrollSpy(ids)
 
-  // Route links (/about, /contact…) are active on their own page; home
-  // sections (Home -> top, FAQ -> #faq, …) are active via scroll-spy on the
-  // home page. Links that scroll use the data-scroll target for the check.
+  // Route links (/about, /contact…) are active on their own page; the Home
+  // link is active while a home-page section is in view.
   const isActive = (item) => {
     if (item.scroll) return route === 'home' && active === item.scroll.slice(1)
     if (item.href === '/') return route === 'home' && active === 'top'
-    if (item.href.startsWith('/')) return route === item.href.slice(1)
-    return route === 'home' && active === item.href.slice(1)
+    return route === item.href.slice(1)
   }
 
   useEffect(() => {
@@ -39,19 +43,18 @@ export default function Header({ route = 'home' }) {
 
         <nav className="nav" aria-label="Primary">
           {nav.map((item) => (
-            <a
+            <Link
               key={item.href}
               href={item.href}
-              data-scroll={item.scroll || undefined}
               className={isActive(item) ? 'active' : ''}
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
         <div className="header-actions">
-          <a className="btn btn-primary btn-signup" href="/" data-scroll="#register">Sign Up</a>
+          <Link className="btn btn-primary btn-signup" href="/#register">Sign Up</Link>
           <button
             className={`burger ${menuOpen ? 'open' : ''}`}
             onClick={() => setMenuOpen((v) => !v)}
@@ -65,11 +68,11 @@ export default function Header({ route = 'home' }) {
 
       <nav className={`mobile-menu container ${menuOpen ? 'open' : ''}`} aria-label="Mobile">
         {nav.map((item) => (
-          <a key={item.href} href={item.href} data-scroll={item.scroll || undefined} onClick={() => setMenuOpen(false)}>
+          <Link key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
             {item.label}
-          </a>
+          </Link>
         ))}
-        <a href="/" data-scroll="#register" onClick={() => setMenuOpen(false)}>Sign Up</a>
+        <Link href="/#register" onClick={() => setMenuOpen(false)}>Sign Up</Link>
       </nav>
     </header>
   )

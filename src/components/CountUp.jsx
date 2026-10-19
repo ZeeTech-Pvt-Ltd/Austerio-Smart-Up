@@ -1,3 +1,5 @@
+'use client'
+
 import useCountUp from '../hooks/useCountUp.js'
 
 /**
@@ -6,10 +8,17 @@ import useCountUp from '../hooks/useCountUp.js'
  * strings (e.g. "24/7") render statically.
  */
 export default function CountUp({ value, className = '', duration }) {
-  const m = value.match(/^(\$?)(\d+\.?\d*)(.*)$/)
+  // The hook is called unconditionally: branching before a hook would break
+  // the rules of hooks if `value` ever changed between renders.
+  const m = String(value).match(/^(\$?)(\d+\.?\d*)(.*)$/)
+  const numeric = m ? parseFloat(m[2]) : 0
+  const { ref, display } = useCountUp(numeric, {
+    prefix: m ? m[1] : '',
+    suffix: m ? m[3] : '',
+    duration,
+  })
+
   if (!m) return <span className={className}>{value}</span>
-  const [, prefix, num, suffix] = m
-  const { ref, display } = useCountUp(parseFloat(num), { prefix, suffix, duration })
   return (
     <span ref={ref} className={className}>
       {display}

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Check } from './icons.jsx'
 import { portfolio } from '../data/content.js'
 
@@ -29,7 +30,7 @@ export default function Portfolio() {
               </li>
             ))}
           </ul>
-          <a className="btn btn-primary" href="/" data-scroll="#register">Get Started</a>
+          <Link className="btn btn-primary" href="/#register">Get Started</Link>
         </div>
       </div>
     </section>

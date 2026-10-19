@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Logo from './Logo.jsx'
 import { footer } from '../data/content.js'
 
@@ -22,6 +23,8 @@ const socials = [
   },
 ]
 
+const hrefOf = (link) => link.scroll || link.href
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -45,7 +48,7 @@ export default function Footer() {
             <h4>Company</h4>
             <ul>
               {footer.company.map((l) => (
-                <li key={l.label}><a href={l.href} data-scroll={l.scroll || undefined}>{l.label}</a></li>
+                <li key={l.label}><Link href={hrefOf(l)}>{l.label}</Link></li>
               ))}
             </ul>
           </div>
@@ -54,7 +57,7 @@ export default function Footer() {
             <h4>Legal</h4>
             <ul>
               {footer.legal.map((l) => (
-                <li key={l.label}><a href={l.href} data-scroll={l.scroll || undefined}>{l.label}</a></li>
+                <li key={l.label}><Link href={hrefOf(l)}>{l.label}</Link></li>
               ))}
             </ul>
           </div>

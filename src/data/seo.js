@@ -250,18 +250,18 @@ export const seo = {
     ],
   },
 
-  disclosure: {
+  'risk-disclosure': {
     title: 'Risk Disclosure, Austerio Smart Up Automated Trading Platform',
     description:
       'Read the Austerio Smart Up Risk Disclosure, key information about the risks of trading FX, CFDs, and cryptocurrencies.',
     keywords: 'Austerio Smart Up risk disclosure, trading risk warning, CFD crypto risk',
-    canonical: `${SITE}/disclosure`,
+    canonical: `${SITE}/risk-disclosure`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
     ogImageAlt: 'Austerio Smart Up risk disclosure',
     schema: [
-      webPage('Risk Disclosure', `${SITE}/disclosure`, 'The Austerio Smart Up Risk Disclosure, information about the risks of trading FX, CFDs, and cryptocurrencies.'),
-      breadcrumb('Risk Disclosure', '/disclosure'),
+      webPage('Risk Disclosure', `${SITE}/risk-disclosure`, 'The Austerio Smart Up Risk Disclosure, information about the risks of trading FX, CFDs, and cryptocurrencies.'),
+      breadcrumb('Risk Disclosure', '/risk-disclosure'),
     ],
   },
 
@@ -270,7 +270,9 @@ export const seo = {
     description:
       'Your Austerio Smart Up registration has been received. Our team will review your details and contact you shortly to activate your account.',
     keywords: '',
-    canonical: `${SITE}/thank-you`,
+    // No canonical: the page is noindex, nofollow, and a canonical would send
+    // the contradictory signal that it should be indexed under this URL.
+    canonical: null,
     robots: 'noindex, nofollow',
     type: 'website',
     ogImageAlt: 'Thank you, Austerio Smart Up registration',

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import CtaBanner from './CtaBanner.jsx'
 import TradingVisual from './TradingVisual.jsx'
 import { Check, ArrowRight, Icon } from './icons.jsx'
@@ -107,10 +108,10 @@ export default function About() {
               confidence and full transparency.
             </p>
             <div className="about-cta">
-              <a className="btn btn-primary" href="/" data-scroll="#register">
+              <Link className="btn btn-primary" href="/#register">
                 Register Now <ArrowRight />
-              </a>
-              <a className="btn btn-ghost" href="/how-it-works">How It Works</a>
+              </Link>
+              <Link className="btn btn-ghost" href="/how-it-works">How It Works</Link>
             </div>
           </div>
 
@@ -204,7 +205,6 @@ export default function About() {
                     width={s.w}
                     height={s.h}
                     loading="lazy"
-                    onError={(e) => { e.currentTarget.style.display = 'none' }}
                   />
                 </div>
                 <div className="about-story-copy">

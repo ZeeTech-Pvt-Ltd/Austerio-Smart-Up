@@ -1,16 +1,36 @@
-# React + Vite
+# Austerio Smart Up
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Next.js (App Router) site for [austeriosmart-up.com](https://austeriosmart-up.com).
 
-Currently, two official plugins are available:
+## Commands
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev     # development server
+npm run build   # production build
+npm start       # serve the production build
+npm run lint    # oxlint
+```
 
-## React Compiler
+## Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `src/app/` - routes, per-page metadata, `sitemap.js`, `robots.js`, `not-found.jsx`
+- `src/components/` - shared UI, including the one `RegistrationForm` rendered on
+  both `/` (`#register`) and `/contact`
+- `src/data/` - site copy (`content.js`), phone country list (`countries.js`),
+  per-route SEO and JSON-LD (`seo.js`)
+- `src/proxy.js` - legacy `/How-It-Works` redirect, matched case-sensitively
+- `public/` - images, the local flag PNGs in `public/flags/`, OG image, manifest
 
-## Expanding the Oxlint configuration
+## Notes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Phone flags are bundled locally, so the picker makes no request to
+  flagcdn.com and still works when that host is blocked.
+- Fonts are self-hosted at build time by `next/font`; no runtime request goes to
+  Google Fonts.
+- The registration form posts JSON to the shared relay (see
+  `src/lib/submitLead.js`) with `offerName: 'AusterioSmartUp-Site'`.
+- `/thank-you` is `noindex, nofollow` with no canonical and is excluded from the
+  sitemap. `robots.txt` deliberately does not disallow it, so crawlers can see
+  the noindex tag.
+- `/disclosure` permanently redirects to `/risk-disclosure`.

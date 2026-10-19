@@ -1,0 +1,19 @@
+{
+  "name": "Austerio Smart Up",
+  "short_name": "Austerio",
+  "description": "AI-powered automated trading platform for traders in Australia.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6D28D9",
+  "lang": "en-AU",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

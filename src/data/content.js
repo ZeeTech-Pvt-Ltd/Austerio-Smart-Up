@@ -12,7 +12,7 @@ export const nav = [
 ]
 
 export const hero = {
-  eyebrow: '🇦🇺 Chosen by traders across Australia',
+  eyebrow: 'Chosen by traders across Australia',
   title: 'Austerio Smart Up',
   titleMark: 'Automated Trading Platform',
   lead: 'Austerio Smart Up brings market tools, account management and automated trading features together in one place. Follow market activity, manage your account and make informed decisions with a platform designed to be simple to use.',
@@ -324,8 +324,8 @@ export const footer = {
   legal: [
     { label: 'Term Of Use', href: '/terms' },
     { label: 'Privacy Policy', href: '/privacy' },
-    { label: 'Risk Disclosure', href: '/disclosure' },
-    { label: 'Sign Up', href: '/', scroll: '#register' },
+    { label: 'Risk Disclosure', href: '/risk-disclosure' },
+    { label: 'Sign Up', href: '/#register' },
   ],
   disclaimer:
     'HIGH RISK WARNING: Trading FX, CFDs, cryptocurrencies, and other financial instruments is highly speculative, carries significant risk, and may not suit all investors. You could lose some or all of your invested capital, so never speculate with money you cannot afford to lose. All profit examples shown on this website are illustrative only and do not guarantee similar results. Austerio Smart Up operates as a technology services company, does not provide financial, investment, or legal advice, and accepts no liability for loss or damage arising from reliance on the information contained on this website. Laws governing financial activities differ around the world, and it is your sole responsibility to make sure your use of this website complies with the laws and regulations of your jurisdiction of residence.',
