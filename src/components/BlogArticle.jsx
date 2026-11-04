@@ -22,7 +22,6 @@ export default function BlogArticle() {
             legitimate way to trade global markets.
           </p>
           <div className="blog-meta">
-            <span>Published: 26 August 2026</span>
             <span>Reviewed by the Austerio Smart Up team</span>
             <span>Read time: 6 min</span>
           </div>
