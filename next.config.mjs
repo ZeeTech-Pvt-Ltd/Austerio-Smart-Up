@@ -40,6 +40,13 @@ const nextConfig = {
       // The required legal route is /risk-disclosure; keep the old short URL
       // working so existing links and search results do not break.
       { source: '/disclosure', destination: '/risk-disclosure', permanent: true },
+      // The review page moved to a shorter slug; keep every old link and
+      // search result pointing at the same article.
+      {
+        source: '/austeriosmart-up-review-australia-scam',
+        destination: '/austerio-smart-up-review',
+        permanent: true,
+      },
     ]
   },
   async headers() {

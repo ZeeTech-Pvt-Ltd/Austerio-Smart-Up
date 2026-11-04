@@ -190,18 +190,18 @@ export const seo = {
     ],
   },
 
-  'austeriosmart-up-review-australia-scam': {
-    title: 'Austerio Smart Up Review Australia: Scam or Legit? (2026)',
+  'austerio-smart-up-review': {
+    title: 'Austerio Smart Up Review: Scam or Legit? (2026)',
     description:
-      'Austerio Smart Up review Australia, is it a scam or legit? Features, benefits, how to get started, plus a straight answer for Australian traders.',
-    keywords: 'Austerio Smart Up review, is Austerio Smart Up legit, Austerio Smart Up scam, Austerio Smart Up Australia, automated trading platform review Australia',
-    canonical: `${SITE}/austeriosmart-up-review-australia-scam`,
+      'Austerio Smart Up review: Is it a scam or legit? Explore its features, benefits, how to get started, and what traders worldwide should know in 2026.',
+    keywords: 'Austerio Smart Up review, is Austerio Smart Up legit, Austerio Smart Up scam, automated trading platform review',
+    canonical: `${SITE}/austerio-smart-up-review`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'article',
     ogImageAlt: 'Austerio Smart Up review Australia, is it a scam or legit?',
     schema: [
-      webPage('Austerio Smart Up Review Australia: Scam or Legit?', `${SITE}/austeriosmart-up-review-australia-scam`, 'A straight Austerio Smart Up review for Australian traders, features, benefits, getting started, and whether the platform is a scam or legit.'),
-      breadcrumb('Austerio Smart Up Review', '/austeriosmart-up-review-australia-scam'),
+      webPage('Austerio Smart Up Review: Scam or Legit?', `${SITE}/austerio-smart-up-review`, 'Austerio Smart Up review: Is it a scam or legit? Explore its features, benefits, how to get started, and what traders worldwide should know in 2026.'),
+      breadcrumb('Austerio Smart Up Review', '/austerio-smart-up-review'),
     ],
   },
 

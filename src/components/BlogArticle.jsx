@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-// Blog review page: "Austerio Smart Up Review Australia, Scam or Legit?"
+// Blog review page: "Austerio Smart Up Review, Scam or Legit?"
 // Rebuilt as an on-site article from the company's own review post, so the
 // search intent behind that URL ("is it a scam?") is answered on the official
 // domain instead of sending readers elsewhere. Every CTA and product / how-to
@@ -14,12 +14,12 @@ export default function BlogArticle() {
         <div className="container blog-hero-inner reveal">
           <span className="eyebrow">Platform Review</span>
           <h1 className="h1">
-            Austerio Smart Up Review Australia, <mark>Scam or Legit?</mark>
+            Austerio Smart Up Review, <mark>Scam or Legit?</mark>
           </h1>
           <p className="lead">
             A close look at Austerio Smart Up's features, benefits, and getting-started
             process, and a straight answer on whether the platform is a scam or a
-            legitimate way to trade Australia's markets.
+            legitimate way to trade global markets.
           </p>
           <div className="blog-meta">
             <span>Published: 26 August 2026</span>
@@ -46,7 +46,7 @@ export default function BlogArticle() {
             </p>
             <div className="blog-note">
               <b>The short answer:</b> No, Austerio Smart Up is not a scam. It is an
-              AI-driven automated trading platform used by traders across Australia,
+              AI-driven automated trading platform used by traders worldwide,
               with 95% of client funds held in cold storage, two-factor
               authentication, and transparent, real-time account records. The only
               real Austerio Smart Up lives at the official domain:{' '}
@@ -163,7 +163,7 @@ export default function BlogArticle() {
           {/* First CTA */}
           <div className="blog-cta reveal">
             <h3>Ready to put the platform to work?</h3>
-            <p>Join traders across Australia and let the AI scan the markets for you, around the clock.</p>
+            <p>Join traders worldwide and let the AI scan the markets for you, around the clock.</p>
             <Link className="btn btn-primary" href="/#register">Create Your Trading Account Now</Link>
           </div>
 
@@ -283,7 +283,7 @@ export default function BlogArticle() {
               user-centred design are its main strengths, making it a credible choice
               for anyone exploring growth opportunities in automated trading. If you
               still have questions, our{' '}
-              <Link href="/#faq">FAQ section</Link> and{' '}
+              <Link href="/faq">FAQ section</Link> and{' '}
               <Link href="/contact">support team</Link> are good places to start.
             </p>
             <p>

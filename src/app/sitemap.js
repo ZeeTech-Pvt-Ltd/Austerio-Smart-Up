@@ -16,7 +16,7 @@ export default function sitemap() {
     { url: `${SITE}/how-it-works`, lastModified: d(LAST_CONTENT_UPDATE), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE}/contact`, lastModified: d(LAST_CONTENT_UPDATE), changeFrequency: 'monthly', priority: 0.8 },
     {
-      url: `${SITE}/austeriosmart-up-review-australia-scam`,
+      url: `${SITE}/austerio-smart-up-review`,
       lastModified: d(LAST_CONTENT_UPDATE),
       changeFrequency: 'monthly',
       priority: 0.6,

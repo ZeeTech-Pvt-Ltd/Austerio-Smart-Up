@@ -6,7 +6,7 @@ export const nav = [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about' },
   { label: 'How It Works', href: '/how-it-works' },
-  { label: 'Reviews', href: '/austeriosmart-up-review-australia-scam' },
+  { label: 'Reviews', href: '/austerio-smart-up-review' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Contact', href: '/contact' },
 ]
