@@ -3,10 +3,8 @@ import Link from 'next/link'
 // Blog review page: "Austerio Smart Up Review Australia, Scam or Legit?"
 // Rebuilt as an on-site article from the company's own review post, so the
 // search intent behind that URL ("is it a scam?") is answered on the official
-// domain instead of sending readers elsewhere. External "create account" links
-// point to the same destination the original article used; product / how-to
-// mentions also link internally to relevant pages of this site.
-const REGISTER_URL = 'https://fundvory.com/T7tv7jcq?f=AusterioSmart+Up'
+// domain instead of sending readers elsewhere. Every CTA and product / how-to
+// mention links internally to this site; there are no third-party links.
 
 export default function BlogArticle() {
   return (
@@ -166,8 +164,7 @@ export default function BlogArticle() {
           <div className="blog-cta reveal">
             <h3>Ready to put the platform to work?</h3>
             <p>Join traders across Australia and let the AI scan the markets for you, around the clock.</p>
-            <a className="btn btn-primary" href={REGISTER_URL}>Create Your Trading Account Now</a>
-            <a className="btn-link" href={REGISTER_URL}>Read More, Click Here</a>
+            <Link className="btn btn-primary" href="/#register">Create Your Trading Account Now</Link>
           </div>
 
           {/* Benefits (numbered, 9) */}
@@ -226,7 +223,7 @@ export default function BlogArticle() {
             </p>
             <ol>
               <li>
-                <strong>Deposit Funds</strong>, At least AU$250 is required to
+                <strong>Deposit Funds</strong>, At least $250 is required to
                 activate your account.
               </li>
               <li>
@@ -304,7 +301,7 @@ export default function BlogArticle() {
           {/* Final CTA, leads to our own registration form on home */}
           <div className="blog-cta reveal">
             <h3>Is Austerio Smart Up right for you?</h3>
-            <p>Start with as little as AU$250, no hidden fees, no subscriptions, withdraw whenever you like.</p>
+            <p>Start with as little as $250, no hidden fees, no subscriptions, withdraw whenever you like.</p>
             <Link className="btn btn-primary" href="/#register">Activate Now Your Account</Link>
           </div>
         </div>

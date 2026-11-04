@@ -13,12 +13,6 @@ export default function Hero() {
 
       <div className="container hero-inner">
         <div className="hero-copy reveal">
-          <span className="eyebrow">
-            {/* Local PNG, not the flag emoji: Windows renders regional
-                indicator emoji as the letters "AU" instead of a flag. */}
-            <img className="eyebrow-flag" src="/flags/au.png" alt="" width="20" height="15" />
-            {hero.eyebrow}
-          </span>
           <h1 className="h1">
             {hero.title} <mark>{hero.titleMark}</mark>
           </h1>

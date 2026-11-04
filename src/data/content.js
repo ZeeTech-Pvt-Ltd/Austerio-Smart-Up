@@ -12,7 +12,6 @@ export const nav = [
 ]
 
 export const hero = {
-  eyebrow: 'Chosen by traders across Australia',
   title: 'Austerio Smart Up',
   titleMark: 'Automated Trading Platform',
   lead: 'Austerio Smart Up brings market tools, account management and automated trading features together in one place. Follow market activity, manage your account and make informed decisions with a platform designed to be simple to use.',
@@ -47,7 +46,7 @@ export const steps = [
     no: 'STEP 2',
     icon: 'wallet',
     title: 'Deposit Funds',
-    text: 'Begin with as little as AU$250. Pay by credit or debit card, direct bank transfer, or a popular e-wallet, and funds typically reach your account within minutes, no waiting around, no surprise charges.',
+    text: 'Begin with as little as $250. Pay by credit or debit card, direct bank transfer, or a popular e-wallet, and funds typically reach your account within minutes, no waiting around, no surprise charges.',
     cta: 'Deposit now',
     green: true,
   },
@@ -165,7 +164,7 @@ export const features = [
   },
   {
     icon: 'shield', title: 'Serious Security, Total Peace of Mind',
-    text: 'Industry-standard encryption and multi-factor authentication help keep every Austerio Smart Up account across Australia protected.',
+    text: 'Industry-standard encryption and multi-factor authentication help keep every Austerio Smart Up account protected.',
   },
 ]
 
@@ -213,7 +212,7 @@ export const portfolio = {
   title: 'Manage Your ',
   titleMark: 'Portfolio with Data-Driven',
   titleEnd: ' Trading',
-  lead: 'Through the Austerio Smart Up platform, traders in Australia enjoy a clean, data-first experience, live performance tracking plus tools that are refreshingly simple to understand and use.',
+  lead: 'Through the Austerio Smart Up platform, traders enjoy a clean, data-first experience, live performance tracking, plus tools that are refreshingly simple to understand and use.',
   checks: [
     'Live performance analytics',
     'Clear guidance at every step',
@@ -281,7 +280,7 @@ export const faq = [
   },
   {
     q: 'How Much Do I Need to Start Trading on Austerio Smart Up?',
-    a: 'A minimum deposit of AU$250 is all it takes to activate your trading account, with no subscription fees, hidden charges, or registration costs. Start small and grow at a pace that feels right for you.',
+    a: 'A minimum deposit of $250 is all it takes to activate your trading account, with no subscription fees, hidden charges, or registration costs. Start small and grow at a pace that feels right for you.',
   },
   {
     q: 'How Secure Are My Money and Data on Austerio Smart Up?',
@@ -309,11 +308,11 @@ export const capabilities = [
   { k: 'Trading Instruments', v: 'Equities, Forex, Crypto & More' },
   { k: 'Account Setup', v: 'Simple and Fast Onboarding' },
   { k: 'Customer Support', v: '24/7 Professional Assistance' },
-  { k: 'Minimum Deposit', v: 'AU$250 · No Hidden Costs' },
+  { k: 'Minimum Deposit', v: '$250 · No Hidden Costs' },
 ]
 
 export const footer = {
-  blurb: 'Austerio Smart Up is an AI-driven automated trading platform for users in Australia, automated strategies, live market insight, and dependable security all in one place.',
+  blurb: 'Austerio Smart Up is an AI-driven automated trading platform for users worldwide, offering automated strategies, live market insight, and dependable security all in one place.',
   company: [
     { label: 'Home', href: '/' },
     { label: 'About Us', href: '/about' },

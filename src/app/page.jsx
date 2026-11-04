@@ -29,7 +29,7 @@ export default function HomePage() {
       <CtaBanner
         eyebrow="Driven by Innovation"
         title="Built for Every Trader"
-        text="Austerio Smart Up is built by a team of innovators, analysts, and engineers committed to advancing the world of automated trading. Join thousands of verified traders across Australia today."
+        text="Austerio Smart Up is built by a team of innovators, analysts, and engineers committed to advancing the world of automated trading. Join thousands of verified traders worldwide today."
         cta="Register Now"
       />
 

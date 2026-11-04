@@ -96,7 +96,6 @@ mark {
 }
 .section-head { max-width: 680px; margin: 0 auto 44px; text-align: center; display: grid; gap: 14px; }
 .section-head .eyebrow { justify-self: center; }
-.eyebrow-flag { width: 18px; height: 14px; border-radius: 2px; object-fit: cover; flex: 0 0 auto; }
 .section-head .lead { font-size: 16.5px; }
 
 /* ---------- Buttons ---------- */

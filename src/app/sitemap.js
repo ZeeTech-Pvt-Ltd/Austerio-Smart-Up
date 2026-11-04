@@ -2,7 +2,7 @@ const SITE = 'https://austeriosmart-up.com'
 
 // Bump this whenever page copy or structure changes, so the sitemap's
 // lastmod values stay truthful instead of pointing at an old month.
-const LAST_CONTENT_UPDATE = '2026-10-20'
+const LAST_CONTENT_UPDATE = '2026-11-04'
 
 // Indexable routes only. /thank-you is deliberately absent: it is noindexed,
 // so listing it would ask crawlers to fetch a page the site tells them to
