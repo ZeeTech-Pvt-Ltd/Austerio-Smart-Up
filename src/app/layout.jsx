@@ -58,7 +58,7 @@ export const metadata = {
         width: 1200,
         height: 630,
         type: 'image/png',
-        alt: 'Austerio Smart Up, AI-powered automated trading platform for Australia',
+        alt: 'Austerio Smart Up, AI-powered automated trading platform for traders worldwide',
       },
     ],
     locale: 'en_AU',

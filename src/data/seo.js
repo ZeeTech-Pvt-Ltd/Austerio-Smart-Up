@@ -20,16 +20,10 @@ const organization = {
   url: SITE,
   logo: `${SITE}/favicon.svg`,
   description:
-    'Austerio Smart Up is an AI-powered automated trading platform for users in Australia, automated strategies, live market signals, and dependable security in one place.',
+    'Austerio Smart Up is an AI-powered automated trading platform for users worldwide, automated strategies, live market signals, and dependable security in one place.',
   email: 'support@austeriosmart-up.com',
   inLanguage: 'en-AU',
-  areaServed: 'Australia',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Melbourne',
-    addressRegion: 'Victoria',
-    addressCountry: 'AU',
-  },
+  areaServed: 'Worldwide',
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'customer support',
@@ -39,9 +33,9 @@ const organization = {
   },
 }
 
-// The platform described as a schema.org Service, geo-scoped to Australia.
-// all fields reflect claims already on the site (Melbourne base, 24/7
-// support, $250 minimum deposit), nothing invented.
+// The platform described as a schema.org Service, scoped worldwide.
+// All fields reflect claims already on the site (24/7 support, $250 minimum
+// deposit), nothing invented.
 function serviceSchema() {
   return {
     '@context': 'https://schema.org',
@@ -50,10 +44,10 @@ function serviceSchema() {
     name: 'Austerio Smart Up Automated Trading Platform',
     serviceType: 'Automated trading platform',
     description:
-      'AI-powered automated trading platform for users in Australia, automated strategies, live market signals, and dependable security in one place.',
+      'AI-powered automated trading platform for users worldwide, automated strategies, live market signals, and dependable security in one place.',
     provider: { '@id': `${SITE}/#organization` },
-    areaServed: 'Australia',
-    audience: { '@type': 'Audience', audienceType: 'Traders in Australia' },
+    areaServed: 'Worldwide',
+    audience: { '@type': 'Audience', audienceType: 'Traders Worldwide' },
     offers: {
       '@type': 'Offer',
       description: 'Minimum deposit to activate a trading account',
@@ -141,7 +135,7 @@ export const seo = {
     canonical: `${SITE}/`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'Austerio Smart Up, AI-powered automated trading platform for Australia',
+    ogImageAlt: 'Austerio Smart Up, AI-powered automated trading platform for traders worldwide',
     schema: [organization, website, webPage(homeTitle, `${SITE}/`, homeDescription), faqPageSchema(), serviceSchema()],
   },
 
@@ -168,7 +162,7 @@ export const seo = {
     canonical: `${SITE}/contact`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
-    ogImageAlt: 'Contact Austerio Smart Up support, 24/7 assistance for Australian traders',
+    ogImageAlt: 'Contact Austerio Smart Up support, 24/7 assistance for traders worldwide',
     schema: [
       webPage('Contact Austerio Smart Up', `${SITE}/contact`, 'Questions about Austerio Smart Up or automated trading? Contact our 24/7 team by email or the registration form, with replies usually within a few hours.'),
       breadcrumb('Contact Us', '/contact'),
@@ -198,7 +192,7 @@ export const seo = {
     canonical: `${SITE}/austerio-smart-up-review`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'article',
-    ogImageAlt: 'Austerio Smart Up review Australia, is it a scam or legit?',
+    ogImageAlt: 'Austerio Smart Up review, is it a scam or legit?',
     schema: [
       webPage('Austerio Smart Up Review: Scam or Legit?', `${SITE}/austerio-smart-up-review`, 'Austerio Smart Up review: Is it a scam or legit? Explore its features, benefits, how to get started, and what traders worldwide should know in 2026.'),
       breadcrumb('Austerio Smart Up Review', '/austerio-smart-up-review'),

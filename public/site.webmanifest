@@ -1,7 +1,7 @@
 {
   "name": "Austerio Smart Up",
   "short_name": "Austerio",
-  "description": "AI-powered automated trading platform for traders in Australia.",
+  "description": "AI-powered automated trading platform for traders worldwide.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
