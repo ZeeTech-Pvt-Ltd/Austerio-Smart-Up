@@ -3,7 +3,7 @@
 const sections = [
   {
     n: '01',
-    t: 'Acceptance of Terms',
+    t: 'Acceptance Of Terms',
     p: [
       "These Terms of Use (\"Terms\") govern your access to and use of the Austerio Smart Up website and platform (the \"Service\"). By creating an account or otherwise using the Service, you confirm that you have read, understood, and agree to be bound by these Terms, together with our Privacy Policy and Risk Disclosure.",
       'If you do not agree to these Terms, you must not register for or use the Service.',
@@ -18,7 +18,7 @@ const sections = [
   },
   {
     n: '03',
-    t: 'Nature of the Service',
+    t: 'Nature Of The Service',
     p: [
       'Austerio Smart Up provides technology and information tools, including AI-assisted market analysis, trading signals, and related content. The Service is provided for informational purposes only.',
       'Austerio Smart Up is not a licensed financial adviser, broker, or investment manager. Nothing on the Service constitutes personalised investment advice, a recommendation, an offer, or a solicitation to buy or sell any asset. Any decision you make, and its outcome, remains your responsibility.',
@@ -26,14 +26,14 @@ const sections = [
   },
   {
     n: '04',
-    t: 'Account Registration and Security',
+    t: 'Account Registration And Security',
     p: [
       'You agree to provide accurate, current, and complete information when registering and to keep that information up to date. You are responsible for maintaining the confidentiality of your login credentials and for all activity that occurs under your account. Please notify us immediately if you suspect any unauthorised use of your account.',
     ],
   },
   {
     n: '05',
-    t: 'Deposits and Withdrawals',
+    t: 'Deposits And Withdrawals',
     p: [
       'Details of payment methods, minimum amounts, and processing times are displayed within the platform. Deposits and withdrawals are processed in accordance with our internal procedures and applicable law. We may require additional identity verification before processing a withdrawal.',
     ],
@@ -75,21 +75,21 @@ const sections = [
   },
   {
     n: '11',
-    t: 'Limitation of Liability',
+    t: 'Limitation Of Liability',
     p: [
       'To the maximum extent permitted by law, Austerio Smart Up, its affiliates, officers, and employees shall not be liable for any indirect, incidental, special, or consequential damages, or for any loss of profits, data, or goodwill, arising out of or in connection with your use of the Service.',
     ],
   },
   {
     n: '12',
-    t: 'Suspension and Termination',
+    t: 'Suspension And Termination',
     p: [
       'We may suspend or terminate your access to the Service at any time, with or without notice, including where we reasonably believe you have breached these Terms or applicable law.',
     ],
   },
   {
     n: '13',
-    t: 'Changes to These Terms',
+    t: 'Changes To These Terms',
     p: [
       "We may update these Terms from time to time. The updated version will be posted on this page with a new \"Last updated\" date. Continued use of the Service after changes take effect constitutes acceptance of the revised Terms.",
     ],
@@ -111,7 +111,7 @@ export default function Terms() {
         <div className="container terms-hero-inner reveal">
           <span className="eyebrow">Legal</span>
           <h1 className="h1">
-            Terms of <mark>Use</mark>
+            Terms Of <mark>Use</mark>
           </h1>
           <p className="lead">The rules that govern your use of the Austerio Smart Up platform.</p>
           <span className="terms-updated">Last updated: 31 August 2026</span>

@@ -14,7 +14,7 @@ export default function BlogArticle() {
         <div className="container blog-hero-inner reveal">
           <span className="eyebrow">Platform Review</span>
           <h1 className="h1">
-            Austerio Smart Up Review, <mark>Scam or Legit?</mark>
+            Austerio Smart Up Review, <mark>Scam Or Legit?</mark>
           </h1>
           <p className="lead">
             A close look at Austerio Smart Up's features, benefits, and getting-started
@@ -73,7 +73,7 @@ export default function BlogArticle() {
 
           {/* Key features (numbered, 7) */}
           <div className="blog-section reveal">
-            <h2>Key Features of the Austerio Smart Up Platform</h2>
+            <h2>Key Features Of The Austerio Smart Up Platform</h2>
             <p>
               AI trading platforms are popular because they combine automation,
               analytics, and accessibility. Below are the major features you get with
@@ -162,14 +162,14 @@ export default function BlogArticle() {
 
           {/* First CTA */}
           <div className="blog-cta reveal">
-            <h3>Ready to put the platform to work?</h3>
+            <h3>Ready To Put The Platform To Work?</h3>
             <p>Join traders worldwide and let the AI scan the markets for you, around the clock.</p>
             <Link className="btn btn-primary" href="/#register">Create Your Trading Account Now</Link>
           </div>
 
           {/* Benefits (numbered, 9) */}
           <div className="blog-section reveal">
-            <h2>Benefits of Using the Austerio Smart Up Trading Platform</h2>
+            <h2>Benefits Of Using The Austerio Smart Up Trading Platform</h2>
             <p>AI-powered systems offer several advantages over conventional trading approaches:</p>
             <ol>
               <li>
@@ -216,7 +216,7 @@ export default function BlogArticle() {
 
           {/* How to start */}
           <div className="blog-section reveal">
-            <h2>How to Get Started with Austerio Smart Up</h2>
+            <h2>How To Get Started With Austerio Smart Up</h2>
             <p>
               The first step is <strong>signing up</strong>, creating your account
               takes just a few minutes. After that, the path is simple:
@@ -252,7 +252,7 @@ export default function BlogArticle() {
 
           {/* Tips */}
           <div className="blog-section reveal">
-            <h2>Tips for Beginners Using AI Trading Platforms</h2>
+            <h2>Tips For Beginners Using AI Trading Platforms</h2>
             <p>New users of automated platforms should keep these points in mind:</p>
             <ul>
               <li>
@@ -300,7 +300,7 @@ export default function BlogArticle() {
 
           {/* Final CTA, leads to our own registration form on home */}
           <div className="blog-cta reveal">
-            <h3>Is Austerio Smart Up right for you?</h3>
+            <h3>Is Austerio Smart Up Right For You?</h3>
             <p>Start with as little as $250, no hidden fees, no subscriptions, withdraw whenever you like.</p>
             <Link className="btn btn-primary" href="/#register">Activate Now Your Account</Link>
           </div>

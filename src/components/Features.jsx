@@ -7,7 +7,7 @@ export default function Features() {
       <div className="container">
         <div className="section-head reveal">
           <span className="eyebrow">Built to perform</span>
-          <h2 className="h2">Streamlined Trading Powered by <mark>Intelligence</mark> and <mark>Security</mark></h2>
+          <h2 className="h2">Streamlined Trading Powered By <mark>Intelligence</mark> And <mark>Security</mark></h2>
           <p className="lead">Everything you need to trade with confidence, wherever you are.</p>
         </div>
 

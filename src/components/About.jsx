@@ -64,7 +64,7 @@ const story = [
   },
   {
     step: '03',
-    title: 'Growing the Community',
+    title: 'Growing The Community',
     image: '/about/growing-the-community.webp', w: 900, h: 675,
     text: 'Within its first year, Austerio Smart Up passed 500,000 users. More currencies were added, alongside round-the-clock customer support in several languages.',
   },
@@ -100,11 +100,11 @@ export default function About() {
           <div className="about-hero-copy reveal">
             <span className="eyebrow">About Austerio Smart Up</span>
             <h1 className="h1">
-              Automated trading, <mark>without the complexity</mark>
+              Automated Trading, <mark>Without The Complexity</mark>
             </h1>
             <p className="lead">
               Austerio Smart Up studies the market around the clock and turns what it finds into clear, actionable
-              opportunities. Our goal is simple, give every trader across Australia the tools to invest with
+              opportunities. Our goal is simple, give every trader worldwide the tools to invest with
               confidence and full transparency.
             </p>
             <div className="about-cta">
@@ -146,7 +146,7 @@ export default function About() {
         <div className="container">
           <div className="section-head reveal">
             <span className="eyebrow">What Sets Us Apart</span>
-            <h2 className="h2">Technology, safety, and personal guidance</h2>
+            <h2 className="h2">Technology, Safety, And Personal Guidance</h2>
             <p className="lead">
               Our platform pairs automated market analysis with human support, so you never have to make decisions alone.
             </p>
@@ -169,7 +169,7 @@ export default function About() {
         <div className="container">
           <div className="section-head reveal">
             <span className="eyebrow">Our Mission</span>
-            <h2 className="h2">What we believe and why we built Austerio Smart Up</h2>
+            <h2 className="h2">What We Believe And Why We Built Austerio Smart Up</h2>
           </div>
 
           <div className="about-mission">
@@ -191,7 +191,7 @@ export default function About() {
         <div className="container">
           <div className="section-head reveal">
             <span className="eyebrow">Our Story</span>
-            <h2 className="h2">From a simple idea to a platform trusted by millions</h2>
+            <h2 className="h2">From A Simple Idea To A Platform Trusted By Millions</h2>
           </div>
 
           <div className="about-story">
@@ -223,7 +223,7 @@ export default function About() {
         <div className="container">
           <div className="section-head reveal">
             <span className="eyebrow">Security & Data Protection</span>
-            <h2 className="h2">Built on a safer trading experience</h2>
+            <h2 className="h2">Built On A Safer Trading Experience</h2>
             <p className="lead">We apply a range of security and data-protection measures designed to support safer trading.</p>
             <div className="about-badges">
               {badges.map((b) => (
@@ -246,7 +246,7 @@ export default function About() {
 
       <CtaBanner
         eyebrow="Ready to begin?"
-        title="Put automated trading to work"
+        title="Put Automated Trading To Work"
         text="Create your Austerio Smart Up account in about two minutes and let AI-driven strategies trade around the clock, with support available 24/7."
         cta="Register Now"
       />

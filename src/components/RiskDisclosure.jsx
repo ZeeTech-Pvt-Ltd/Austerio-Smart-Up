@@ -25,7 +25,7 @@ const sections = [
   },
   {
     n: '04',
-    t: 'Limitations of AI Tools',
+    t: 'Limitations Of AI Tools',
     p: [
       'AI-assisted analysis and signals are based on historical and real-time data and statistical models. Models can be wrong, may not reflect all market conditions, and do not guarantee accurate predictions. Signals should never be relied upon in isolation, and automated outputs are no substitute for your own judgement.',
     ],
@@ -39,14 +39,14 @@ const sections = [
   },
   {
     n: '06',
-    t: 'Liquidity and Execution',
+    t: 'Liquidity And Execution',
     p: [
       'Market conditions may affect the speed and price at which orders are executed. Low liquidity can lead to slippage, wider spreads, and difficulty entering or exiting positions at expected prices.',
     ],
   },
   {
     n: '07',
-    t: 'Technology and Cybersecurity Risks',
+    t: 'Technology And Cybersecurity Risks',
     p: [
       'Online platforms are subject to technology failures, outages, and security threats, including unauthorised access, phishing, and other attacks. We employ security measures to protect the Service, but no online system is completely immune to risk.',
     ],

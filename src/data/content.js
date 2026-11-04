@@ -129,7 +129,7 @@ export const experience = {
 export const priorities = {
   eyebrow: 'Why Austerio Smart Up',
   title: 'Our ',
-  titleMark: 'priorities',
+  titleMark: 'Priorities',
   lead: 'Security, simplicity, and total openness, at every single step.',
   cards: [
     {
@@ -159,18 +159,18 @@ export const features = [
     text: 'Let the automation take care of the busywork, or fine-tune the settings to suit your style. You stay in charge while the platform does the heavy lifting.',
   },
   {
-    icon: 'clock', title: 'Market Intelligence in Real Time', green: true,
+    icon: 'clock', title: 'Market Intelligence In Real Time', green: true,
     text: 'Follow global markets without going it alone. Austerio Smart Up delivers sharp execution and live signals around the clock.',
   },
   {
-    icon: 'shield', title: 'Serious Security, Total Peace of Mind',
+    icon: 'shield', title: 'Serious Security, Total Peace Of Mind',
     text: 'Industry-standard encryption and multi-factor authentication help keep every Austerio Smart Up account protected.',
   },
 ]
 
 export const precision = [
   {
-    icon: 'lock', title: 'Smart Algorithms for Smarter Trading',
+    icon: 'lock', title: 'Smart Algorithms For Smarter Trading',
     text: 'Advanced AI scans live market data and highlights emerging trends on your behalf, across Bitcoin, Ethereum, stocks, and forex.',
   },
   {
@@ -210,7 +210,7 @@ export const testimonials = {
 export const portfolio = {
   eyebrow: 'Portfolio management',
   title: 'Manage Your ',
-  titleMark: 'Portfolio with Data-Driven',
+  titleMark: 'Portfolio With Data-Driven',
   titleEnd: ' Trading',
   lead: 'Through the Austerio Smart Up platform, traders enjoy a clean, data-first experience, live performance tracking, plus tools that are refreshingly simple to understand and use.',
   checks: [

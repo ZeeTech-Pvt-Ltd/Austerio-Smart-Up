@@ -34,7 +34,7 @@ const sections = [
   },
   {
     n: '04',
-    t: 'Legal Bases for Processing',
+    t: 'Legal Bases For Processing',
     p: [
       'We process personal information where it is necessary to perform our contract with you, to comply with legal obligations, to pursue our legitimate interests (such as improving the Service and preventing fraud), or where you have given consent.',
     ],
@@ -76,7 +76,7 @@ const sections = [
   },
   {
     n: '09',
-    t: 'Cookies and Similar Technologies',
+    t: 'Cookies And Similar Technologies',
     p: [
       'We use cookies and similar technologies to operate the Service, remember your preferences, and understand how the Service is used.',
     ],
@@ -97,7 +97,7 @@ const sections = [
   },
   {
     n: '12',
-    t: 'Changes to This Notice',
+    t: 'Changes To This Notice',
     p: [
       "We may update this Privacy Notice from time to time. The updated version will be posted on this page with a new \"Last updated\" date.",
     ],

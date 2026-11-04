@@ -8,7 +8,7 @@ export default function NotFound() {
         <div className="nf-code" aria-hidden="true">404</div>
         <span className="eyebrow">Error</span>
         <h1 className="h1">
-          Page <mark>not found</mark>
+          Page <mark>Not Found</mark>
         </h1>
         <p className="lead">
           The page you&rsquo;re looking for doesn&rsquo;t exist, or has been moved to a new address.

@@ -8,7 +8,6 @@ import { Icon } from './icons.jsx'
 const info = [
   { icon: 'mail', title: 'Email', value: 'support@austeriosmart-up.com', hint: 'Replies within a few hours' },
   { icon: 'clock', title: 'Support Hours', value: '24/7, 365 days a year', hint: 'Round-the-clock assistance' },
-  { icon: 'pin', title: 'Location', value: 'Melbourne, Victoria, Australia', hint: 'Serving traders across Australia' },
   { icon: 'zap', title: 'Response Time', value: 'Most questions answered within a few hours', hint: 'Fast, helpful support' },
 ]
 
@@ -20,7 +19,7 @@ export default function Contact() {
         <div className="container ct-hero-inner reveal">
           <span className="eyebrow">Contact Us</span>
           <h1 className="h1">
-            We&rsquo;d love to <mark>hear from you</mark>
+            We&rsquo;d Love To <mark>Hear From You</mark>
           </h1>
           <p className="lead">
             Have a question about Austerio Smart Up, your account, or automated trading? Our team is available around
@@ -34,7 +33,7 @@ export default function Contact() {
         <div className="container ct-grid">
           <div className="ct-info reveal">
             <span className="eyebrow">Get in touch</span>
-            <h2 className="h2">How to reach us</h2>
+            <h2 className="h2">How To Reach Us</h2>
             <p className="lead">
               Pick whichever channel works best for you, email, or the message form on this page.
             </p>
@@ -54,7 +53,7 @@ export default function Contact() {
           </div>
 
           <div className="ct-form-card reveal">
-            <h3>Register your interest</h3>
+            <h3>Register Your Interest</h3>
             <p className="ct-form-sub">Fill in your details and our team will be in touch to get you started.</p>
             <RegistrationForm />
           </div>
@@ -63,7 +62,7 @@ export default function Contact() {
 
       <CtaBanner
         eyebrow="Explore trading opportunities"
-        title="Register now and our team will be in touch"
+        title="Register Now And Our Team Will Be In Touch"
         text="Open your Austerio Smart Up account in minutes and put automated AI trading to work, with support available 24/7."
         cta="Register Now"
       />

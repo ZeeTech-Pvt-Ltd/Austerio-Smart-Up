@@ -8,7 +8,7 @@ export default function ThankYou() {
         <span className="ty-badge"><Check size={30} /></span>
         <span className="eyebrow">Registration Successful</span>
         <h1 className="h1">
-          Thank you for <mark>registering</mark>
+          Thank You For <mark>Registering</mark>
         </h1>
         <p className="lead">
           Your application has been received. Our team will review your details and contact you shortly to activate
@@ -25,26 +25,26 @@ export default function ThankYou() {
         </div>
 
         <div className="ty-next">
-          <h3>What happens next?</h3>
+          <h3>What Happens Next?</h3>
           <div className="ty-steps">
             <div className="ty-step">
               <span>1</span>
               <div>
-                <h4>We review your application</h4>
+                <h4>We Review Your Application</h4>
                 <p>Our onboarding team checks your registration details.</p>
               </div>
             </div>
             <div className="ty-step">
               <span>2</span>
               <div>
-                <h4>We reach out to you</h4>
+                <h4>We Reach Out To You</h4>
                 <p>A team member contacts you to confirm your account and next steps.</p>
               </div>
             </div>
             <div className="ty-step">
               <span>3</span>
               <div>
-                <h4>Start trading with AI</h4>
+                <h4>Start Trading With AI</h4>
                 <p>Once verified, your account is activated and you can begin automated trading.</p>
               </div>
             </div>

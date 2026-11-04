@@ -137,7 +137,7 @@ export const seo = {
     title: homeTitle,
     description: homeDescription,
     keywords:
-      'Austerio Smart Up, automated trading platform australia, AI trading platform, automated crypto trading, AI trading Australia',
+      'Austerio Smart Up, automated trading platform, AI trading platform, automated crypto trading, AI trading',
     canonical: `${SITE}/`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
@@ -149,7 +149,7 @@ export const seo = {
     title: 'About Austerio Smart Up, Automated Trading Without the Complexity',
     description:
       'Learn about Austerio Smart Up, the AI trading platform trusted by 4M+ users, with automated analysis, bank-grade security, and 24/7 support.',
-    keywords: 'about Austerio Smart Up, Austerio Smart Up trading platform, automated trading platform australia, AI trading company',
+    keywords: 'about Austerio Smart Up, Austerio Smart Up trading platform, automated trading platform, AI trading company',
     canonical: `${SITE}/about`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
@@ -164,7 +164,7 @@ export const seo = {
     title: 'Contact Austerio Smart Up, 24/7 Support for Australian Traders',
     description:
       'Questions about Austerio Smart Up or automated trading? Contact our 24/7 team by email or the registration form, replies usually within a few hours.',
-    keywords: 'contact Austerio Smart Up, Austerio Smart Up support, automated trading help, automated trading Australia support',
+    keywords: 'contact Austerio Smart Up, Austerio Smart Up support, automated trading help, automated trading support',
     canonical: `${SITE}/contact`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
