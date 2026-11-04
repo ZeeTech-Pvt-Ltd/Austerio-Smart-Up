@@ -161,16 +161,16 @@ export const seo = {
   },
 
   contact: {
-    title: 'Contact Austerio Smart Up, 24/7 Support for Australian Traders',
+    title: 'Contact Austerio Smart Up, 24/7 Global Support',
     description:
-      'Questions about Austerio Smart Up or automated trading? Contact our 24/7 team by email or the registration form, replies usually within a few hours.',
+      'Questions about Austerio Smart Up or automated trading? Contact our 24/7 team by email or the registration form, with replies usually within a few hours.',
     keywords: 'contact Austerio Smart Up, Austerio Smart Up support, automated trading help, automated trading support',
     canonical: `${SITE}/contact`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
     ogImageAlt: 'Contact Austerio Smart Up support, 24/7 assistance for Australian traders',
     schema: [
-      webPage('Contact Austerio Smart Up', `${SITE}/contact`, 'Contact the Austerio Smart Up support team, email and registration form, available around the clock.'),
+      webPage('Contact Austerio Smart Up', `${SITE}/contact`, 'Questions about Austerio Smart Up or automated trading? Contact our 24/7 team by email or the registration form, with replies usually within a few hours.'),
       breadcrumb('Contact Us', '/contact'),
     ],
   },
@@ -224,7 +224,7 @@ export const seo = {
   terms: {
     title: 'Terms of Use, Austerio Smart Up Automated Trading Platform',
     description:
-      'Read the Austerio Smart Up Terms of Use, the rules that govern use of the platform and its services for users in Australia.',
+      'Read the Austerio Smart Up Terms of Use, the rules that govern use of the platform and its services for users worldwide.',
     keywords: 'Austerio Smart Up terms of use, automated trading terms, platform terms',
     canonical: `${SITE}/terms`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',

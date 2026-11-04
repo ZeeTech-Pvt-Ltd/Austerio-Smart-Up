@@ -122,7 +122,6 @@ export default function Privacy() {
             Privacy <mark>Policy</mark>
           </h1>
           <p className="lead">How Austerio Smart Up collects, uses, and protects your personal information.</p>
-          <span className="terms-updated">Last updated: 31 August 2026</span>
         </div>
       </section>
 

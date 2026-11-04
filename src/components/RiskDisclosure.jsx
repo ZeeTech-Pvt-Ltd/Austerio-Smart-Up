@@ -85,7 +85,6 @@ export default function RiskDisclosure() {
             Risk <mark>Disclosure</mark>
           </h1>
           <p className="lead">The risks you should understand before using the Austerio Smart Up platform.</p>
-          <span className="terms-updated">Last updated: 31 August 2026</span>
         </div>
       </section>
 
