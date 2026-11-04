@@ -191,15 +191,15 @@ export const testimonials = {
   items: [
     {
       quote: "Using Austerio Smart Up has been a pleasure from day one. The automation responds quickly, and the dashboard makes it easy to follow everything as it happens.",
-      name: 'Liam Whitford', initials: 'LW', verified: 'Verified user',
+      name: 'Liam Whitford', verified: 'Verified user',
     },
     {
       quote: 'I had zero trading background before signing up. The setup was painless, each step was explained clearly, and I never felt out of my depth.',
-      name: 'Megan Hartley', initials: 'MH', verified: 'Verified trade',
+      name: 'Megan Hartley', verified: 'Verified trade',
     },
     {
       quote: "The speed caught my attention straight away, and taking money out has been hassle-free, every step is confirmed clearly before it processes.",
-      name: 'Callum Whitford', initials: 'CW', verified: 'Verified trade',
+      name: 'Callum Whitford', verified: 'Verified trade',
     },
   ],
   summary: [

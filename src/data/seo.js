@@ -185,16 +185,16 @@ export const seo = {
   },
 
   'austerio-smart-up-review': {
-    title: 'Austerio Smart Up Review: Scam or Legit? (2026)',
+    title: 'Austerio Smart Up Review: Scam or Legit? ({year})',
     description:
-      'Austerio Smart Up review: Is it a scam or legit? Explore its features, benefits, how to get started, and what traders worldwide should know in 2026.',
+      'Austerio Smart Up review: Is it a scam or legit? Explore its features, benefits, how to get started, and what traders worldwide should know in {year}.',
     keywords: 'Austerio Smart Up review, is Austerio Smart Up legit, Austerio Smart Up scam, automated trading platform review',
     canonical: `${SITE}/austerio-smart-up-review`,
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'article',
     ogImageAlt: 'Austerio Smart Up review, is it a scam or legit?',
     schema: [
-      webPage('Austerio Smart Up Review: Scam or Legit?', `${SITE}/austerio-smart-up-review`, 'Austerio Smart Up review: Is it a scam or legit? Explore its features, benefits, how to get started, and what traders worldwide should know in 2026.'),
+      webPage('Austerio Smart Up Review: Scam or Legit?', `${SITE}/austerio-smart-up-review`, 'Austerio Smart Up review: Is it a scam or legit? Explore its features, benefits, how to get started, and what traders worldwide should know in {year}.'),
       breadcrumb('Austerio Smart Up Review', '/austerio-smart-up-review'),
     ],
   },
@@ -284,4 +284,19 @@ export const seo = {
     ogImageAlt: 'Page not found, Austerio Smart Up',
     schema: [],
   },
+}
+
+// Resolve the {year} placeholder in a route config. The review page uses it
+// so its title and description roll over automatically each January instead
+// of being edited by hand.
+export function withYear(conf, year = new Date().getFullYear()) {
+  const replace = (value) => {
+    if (typeof value === 'string') return value.replaceAll('{year}', String(year))
+    if (Array.isArray(value)) return value.map(replace)
+    if (value && typeof value === 'object') {
+      return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, replace(child)]))
+    }
+    return value
+  }
+  return replace(conf)
 }

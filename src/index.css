@@ -601,8 +601,8 @@ body.menu-open { overflow: hidden; }
 .tst-person { display: flex; align-items: center; gap: 12px; }
 .tst-avatar {
   width: 46px; height: 46px; border-radius: 50%;
-  background: var(--grad); color: #fff;
-  font-weight: 700; font-size: 16px; display: grid; place-items: center; flex: 0 0 auto;
+  background: var(--grad); padding: 10px;
+  flex: 0 0 auto; object-fit: contain;
   box-shadow: 0 6px 14px -4px rgba(109, 40, 217, .45);
 }
 .tst-person b { display: block; font-size: 15px; }

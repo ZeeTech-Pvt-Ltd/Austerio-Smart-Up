@@ -1,15 +1,23 @@
 import BlogArticle from '../../components/BlogArticle.jsx'
 import JsonLd from '../../components/JsonLd.jsx'
-import { seo } from '../../data/seo.js'
+import { seo, withYear } from '../../data/seo.js'
 import { pageMetadata } from '../../lib/metadata.js'
 
-export const metadata = pageMetadata(seo['austerio-smart-up-review'])
+// Regenerate at most hourly so the {year} in the review title and description
+// rolls over on its own on 1 January, without a manual edit or a redeploy.
+export const revalidate = 3600
+
+export function generateMetadata() {
+  return pageMetadata(withYear(seo['austerio-smart-up-review']))
+}
 
 export default function ReviewPage() {
+  const conf = withYear(seo['austerio-smart-up-review'])
+
   return (
     <>
       <BlogArticle />
-      <JsonLd data={seo['austerio-smart-up-review'].schema} />
+      <JsonLd data={conf.schema} />
     </>
   )
 }

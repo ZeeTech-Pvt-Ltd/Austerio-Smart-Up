@@ -16,7 +16,7 @@ export default function Testimonials() {
               <div className="tst-stars">★★★★★</div>
               <blockquote>"{t.quote}"</blockquote>
               <div className="tst-person">
-                <span className="tst-avatar">{t.initials}</span>
+                <img className="tst-avatar" src="/user-avatar.svg" alt="" width="46" height="46" loading="lazy" />
                 <div>
                   <b>{t.name}</b>
                   <span className="verified">✓ {t.verified}</span>
