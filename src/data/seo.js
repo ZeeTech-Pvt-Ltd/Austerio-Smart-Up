@@ -128,12 +128,13 @@ function fullFaqSchema() {
   }
 }
 
+const homeTitle = 'Austerio Smart Up | Official AI-Powered Automated Trading Platform'
 const homeDescription =
-  'Austerio Smart Up, AI-powered automated trading for Australia. 24/7 automated strategies, live signals, bank-grade security. Start with just $250.'
+  "Don't trade blindly in volatile markets. Austerio Smart Up provides data-backed AI execution, automated risk limits, and real-time performance tracking. Join Official platform today."
 
 export const seo = {
   home: {
-    title: 'Austerio Smart Up, AI-Powered Automated Trading Platform in Australia',
+    title: homeTitle,
     description: homeDescription,
     keywords:
       'Austerio Smart Up, automated trading platform australia, AI trading platform, automated crypto trading, AI trading Australia',
@@ -141,7 +142,7 @@ export const seo = {
     robots: 'index, follow, max-image-preview:large, max-snippet:-1',
     type: 'website',
     ogImageAlt: 'Austerio Smart Up, AI-powered automated trading platform for Australia',
-    schema: [organization, website, webPage('Austerio Smart Up, AI-Powered Automated Trading Platform in Australia', `${SITE}/`, homeDescription), faqPageSchema(), serviceSchema()],
+    schema: [organization, website, webPage(homeTitle, `${SITE}/`, homeDescription), faqPageSchema(), serviceSchema()],
   },
 
   about: {

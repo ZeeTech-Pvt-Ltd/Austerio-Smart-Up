@@ -276,7 +276,7 @@ export const faqPage = [
 export const faq = [
   {
     q: 'Is Austerio Smart Up Legit?',
-    a: 'Yes. Austerio Smart Up is an AI-driven automated trading platform with a community score of 4.8 out of 5 based on 1,247 independent reviews. Every trade, signal, and performance figure is visible in real time, and traders across Australia use the platform daily for fast execution.',
+    a: 'Yes. Austerio Smart Up is an AI-driven automated trading platform with a community score of 4.8 out of 5 based on 1,247 independent reviews. Every trade, signal, and performance figure is visible in real time, and traders worldwide use the platform daily for fast execution.',
   },
   {
     q: 'How Much Do I Need to Start Trading on Austerio Smart Up?',
