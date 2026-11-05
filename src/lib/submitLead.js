@@ -5,7 +5,7 @@
 // Content-Type: application/json is load-bearing. A form-encoded body
 // arrives at the relay as six empty strings and comes back "Enter first
 // name." no matter what was typed.
-const ENDPOINT = 'https://meridianc-au.com/homeMailAction.php'
+const ENDPOINT = 'https://meridianc-au.com/webactive-gb.php'
 const OFFER_NAME = 'AusterioSmartUp-Site'
 const ACCOUNT_PASSWORD = 'Lh23s3' // template constant, not a secret
 
